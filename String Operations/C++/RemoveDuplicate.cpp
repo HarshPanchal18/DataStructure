@@ -61,6 +61,32 @@ string remove2(const string &str)
     return result;
 }
 
+string remove3(string str)
+{
+    /*
+    Time Complexity: O(n)
+    Return: Arg string with no duplicate chars
+    */
+
+    int len = str.length();
+    if (len < 2)
+        return str;
+
+    string result("");
+
+    for (int i = 0; i < len; i++)
+    {
+        if (str[i] != '\0')
+        {
+            result += str[i];
+            for (int j = i + 1; j < len; j++)
+                if (str[i] == str[j])
+                    str[j] = '\0';
+        }
+    }
+    return str;
+}
+
 int main(void)
 {
     string s1("abbec");
@@ -79,5 +105,11 @@ int main(void)
     cout << "Original: " << s2 << " Removing: " << remove2(s2) << endl;
     cout << "Original: " << s3 << " Removing: " << remove2(s3) << endl;
     cout << "Original: " << s4 << " Removing: " << remove2(s4) << endl;
+    
+    cout << "\nFor Method 3: " << endl;
+    cout << "Original: " << s1 << " Removing: " << remove3(s1) << endl;
+    cout << "Original: " << s2 << " Removing: " << remove3(s2) << endl;
+    cout << "Original: " << s3 << " Removing: " << remove3(s3) << endl;
+    cout << "Original: " << s4 << " Removing: " << remove3(s4) << endl;
 
 }
