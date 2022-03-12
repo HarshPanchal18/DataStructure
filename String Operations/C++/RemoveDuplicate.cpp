@@ -112,6 +112,30 @@ void remove4(char *str)
     str[Cindex] = '\0';
 }
 
+void remove5(char *str)
+{
+    /*
+    Time Complexity: O(n^2)
+    Return: void, change the str we passed to Arg.
+    */
+
+    int len = strlen(str);
+    if (len < 2)
+        return;
+
+    int index = 0;
+    for (int i = 0; i < len; i++)
+    {
+        if (str[i] != '\0')
+        {
+            str[index++] = str[i];
+            for (int j = i + 1; j < len; j++)
+                if (str[i] == str[j])
+                    str[j] = '\0';
+        }
+    }
+}
+
 int main(void)
 {
     string s1("abbec");
@@ -159,4 +183,25 @@ int main(void)
     remove4(s8);
     cout << s8 << endl;
 
+    cout << "\nFor method 5:" << endl;
+    char s9[] = "aaaabbbbccccdddeeefffaaabbb";
+    char s10[] = "abcddfffef";
+    char s11[] = "aabcd";
+    char s12[] = "";
+
+    cout << "Original: " << s9 << " Removing: ";
+    remove5(s9);
+    cout << s9 << endl;
+
+    cout << "Original: " << s10 << " Removing: ";
+    remove5(s10);
+    cout << s10 << endl;
+
+    cout << "Original: " << s11 << " Removing: ";
+    remove5(s11);
+    cout << s11 << endl;
+
+    cout << "Original: " << s12 << " Removing: ";
+    remove5(s12);
+    cout << s12 << endl;
 }
