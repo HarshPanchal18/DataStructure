@@ -136,6 +136,30 @@ void remove5(char *str)
     }
 }
 
+void remove6(char *str)
+{
+    /*
+    Time Complexity: O(n)
+    Return: void, change the str we passed th Arg.
+    */
+
+    int len = strlen(str);
+    if (len < 2)
+        return;
+
+    int index = 0;
+    bool check[256] = {false};
+    for (int i = 0; i < len; i++)
+    {
+        if (!check[(int)str[i]])
+        {
+            check[(int)str[i]] = true;
+            str[index++] = str[i];
+        }
+    }
+    str[index] = '\0';
+}
+
 int main(void)
 {
     string s1("abbec");
@@ -204,4 +228,27 @@ int main(void)
     cout << "Original: " << s12 << " Removing: ";
     remove5(s12);
     cout << s12 << endl;
+    
+    cout << "\nFor Method 6:" << endl;
+    char s13[] = "aaaabbbbccccdddeeefffaaabbb";
+    char s14[] = "abcdfdddfef";
+    char s15[] = "bbc";
+    char s16[] = "";
+
+    cout << "Original: " << s13 << " Removing: ";
+    remove6(s13);
+    cout << s13 << endl;
+
+    cout << "Original: " << s14 << " Removing: ";
+    remove6(s14);
+    cout << s14 << endl;
+
+    cout << "Original: " << s15 << " Removing: ";
+    remove6(s15);
+    cout << s15 << endl;
+
+    cout << "Original: " << s16 << " Removing: ";
+    remove6(s16);
+    cout << s16 << endl;
+    
 }
