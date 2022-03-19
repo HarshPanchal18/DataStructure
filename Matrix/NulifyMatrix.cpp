@@ -1,7 +1,5 @@
 #include <iostream>
 
-// Write a space efficient algorithm, such that if an element in MxN is 0, the entire row and column containing it are 0.
-
 using namespace std;
 
 void nulifyRow(int **matrix, int N, int row)
@@ -105,3 +103,43 @@ int main(void)
     cout << "\nResultant Matrix:\n";
     printMatrix(matrix, M, N);
 }
+
+//If an element in MxN is 0, the entire row and column containing it are 0.
+/*
+Enter Row: 3
+Enter Column: 3
+
+Enter Matrix data:
+1 5 9
+5 6 0
+7 1 4
+
+Given Matrix:
+1 5 9
+5 6 0
+7 1 4
+
+Resultant Matrix:
+1 5 0
+0 0 0
+7 1 0
+
+
+Enter Row: 3
+Enter Column: 3
+
+Enter Matrix data:
+5 9 7
+9 2 6
+1 0 0
+
+Given Matrix:
+5 9 7
+9 2 6
+1 0 0
+
+Resultant Matrix:
+5 0 0
+9 0 0
+0 0 0
+*/
