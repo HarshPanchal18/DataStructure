@@ -38,3 +38,25 @@ void Display(N *temp)
     if (temp->r != NULL)
         Display(temp->r);
 }
+
+int main(void)
+{
+    int arr[] = {10, 20, 30, 40, 50, 60, 70};
+    N *root = (N *)malloc(sizeof(struct Node));
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    printf("\nGiven Sorted Array is: ");
+    for (int i = 0; i < n; i++)
+        printf(" %d", arr[i]);
+    printf("\n");
+
+    root = BST(arr, 0, n - 1);
+    printf("PreOrder Traversal: ");
+    Display(root);
+}
+
+/*
+Given Sorted Array is:  10 20 30 40 50 60 70
+PreOrder Traversal: 40 20 10 30 60 50 70
+BALANCED!!!
+*/
