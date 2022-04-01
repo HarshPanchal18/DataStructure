@@ -28,3 +28,34 @@ struct Node *GetNewNode(int data)
     newNode->left = newNode->right = NULL;
     return newNode;
 }
+
+// void Insert(struct Node *root, int data)
+struct Node *Insert(struct Node *root, int data)
+{
+    if (root == NULL)
+    {
+        root = GetNewNode(data);
+        return root;
+    }
+    else if (data <= root->data)
+        root->left = Insert(root->left, data);
+    else
+        root->right = Insert(root->right, data);
+
+    return root;
+}
+
+void _FreeTree(struct Node *root)
+{
+    if (root->left)
+    {
+        _FreeTree(root->left);
+        free(root->left);
+    }
+
+    if (root->right)
+    {
+        _FreeTree(root->right);
+        free(root->right);
+    }
+}
