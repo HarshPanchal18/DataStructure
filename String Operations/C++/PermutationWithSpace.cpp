@@ -18,6 +18,30 @@ void getPermutation(string s, string ans)
     getPermutation(s, ans + " " + temp);
 }
 
+class method2{
+public:
+
+vector<string>ans;
+void backTrack(string s,int len)
+{
+    if(len==0)
+    {
+        ans.push_back(s);
+        return;
+    }
+
+    backTrack(s.substr(0,s.size()-len)+" "+s.substr(s.size()-len),len-1);
+    backTrack(s,len-1);
+}
+
+    vector<string> permutation(string S)
+    {
+        int len=S.size()-1;
+        backTrack(S,len);
+        return ans;
+    }
+};
+
 int main(void)
 {
     string s;
@@ -26,8 +50,20 @@ int main(void)
     string ans;
     ans += s[0];
     s.erase(s.begin() + 0);
-
     getPermutation(s, ans);
+    
+    method2 obj1;
+    
+    string str1;
+    cin>>str1;
+    
+    vector<string> ans;
+    
+    ans=obj1.permutation(str1);
+    
+    for(int i=0;i<ans.size();i++)
+        cout<<"("<<ans[i]<<")"<<endl;
+
 }
 
 /*
