@@ -59,3 +59,66 @@ void _FreeTree(struct Node *root)
         free(root->right);
     }
 }
+
+void DelTree(struct Node **root)
+{
+    if (*root)
+    {
+        _FreeTree(*root);
+        free(*root);
+    }
+}
+
+void DeleteTree(struct Node *root)
+{
+    if (root == NULL)
+        return;
+
+    DeleteTree(root->left);
+    DeleteTree(root->right);
+
+    printf("\nDeleting Node...%d", root->data);
+    free(root);
+
+    printf("\n");
+}
+
+bool Search(struct Node *root, int data)
+{
+    if (root == NULL)
+        return false;
+
+    else if (root->data == data)
+        return true;
+    else if (data <= root->data)
+        return Search(root->left, data);
+    else
+        return Search(root->right, data);
+}
+
+int min(struct Node *root)
+{
+    if (root == NULL)
+    {
+        printf("Tree is empty");
+        return -1;
+    }
+
+    while (root->left != NULL) // root of the argument
+        root = root->left;
+
+    return root->data;
+}
+
+int RecMin(struct Node *root)
+{
+    if (root == NULL)
+    {
+        printf("Tree is empty");
+        return -1;
+    }
+    else if (root->left == NULL)
+        return root->data;
+
+    RecMin(root->left);
+}
