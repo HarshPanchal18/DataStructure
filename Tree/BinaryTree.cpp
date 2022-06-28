@@ -78,4 +78,66 @@ public:
             }
         }
     }
+    void display(Node *temp)
+    {
+        if (isEmpty())
+            cout << "\nTree is Empty";
+
+        if (temp != NULL)
+        {
+            display(temp->left);
+            cout << "  " << temp->key;
+            display(temp->right);
+        }
+    }
+
+    int depth(Node *temp)
+    {
+        int depthLeft, depthRight;
+
+        if (!isEmpty())
+        {
+            if (temp == NULL)
+                return -1;
+
+            depthLeft = depth(temp->left);
+            depthRight = depth(temp->right);
+
+            return max(depthLeft, depthRight) + 1;
+        }
+        else
+        {
+            cout << "\nTree is Empty";
+            return 0;
+        }
+    }
+
+    void displayLeaf(Node *temp)
+    {
+        if (temp != NULL)
+        {
+            displayLeaf(temp->left);
+
+            if (temp->left == NULL && temp->right == NULL)
+                cout << " " << temp->key;
+
+            displayLeaf(temp->right);
+        }
+        else
+            cout << "\nTree is Empty";
+    }
+
+    Node *copyTree(Node *root)
+    {
+        Node *temp = NULL;
+
+        if (root != NULL)
+        {
+            temp = new Node;
+            temp->key = root->key;
+            temp->left = copyTree(root->left);
+            temp->right = copyTree(root->right);
+        }
+        return temp;
+    }
 }
