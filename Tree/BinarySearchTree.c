@@ -122,3 +122,35 @@ int RecMin(struct Node *root)
 
     RecMin(root->left);
 }
+
+int max(struct Node *root)
+{
+    if (root == NULL)
+    {
+        printf("Tree is empty");
+        return -1;
+    }
+
+    while (root->right != NULL) // root of the argument
+        root = root->right;
+
+    return root->data;
+}
+
+int RecMax(struct Node *root)
+{
+    if (root == NULL)
+    {
+        printf("Tree is empty");
+        return -1;
+    }
+    else if (root->right == NULL)
+        return root->data;
+
+    RecMax(root->right);
+}
+
+int Maxx(int x, int y)
+{
+    return x >= y ? x : y;
+}
