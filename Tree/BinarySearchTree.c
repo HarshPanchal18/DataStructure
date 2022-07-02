@@ -154,3 +154,44 @@ int Maxx(int x, int y)
 {
     return x >= y ? x : y;
 }
+
+int FindHeight(struct Node *root)
+{
+    // Height of tree(root) = Number of edges in longest path from root to leaf-node. (measured from leaf-node)
+    if (root == NULL)
+        return -1;
+
+    return Maxx(FindHeight(root->left), FindHeight(root->right)) + 1;
+}
+
+int FindDepth(struct Node *root)
+{
+    // Depth of tree(root) = Number of edges in longest path from root to leaf-node. (measured from leaf-node)
+    if (root == NULL)
+        return -1;
+
+    return Maxx(FindDepth(root->left), FindDepth(root->right)) + 1;
+}
+
+struct Node *FindMin(struct Node *root)
+{
+    if (root == NULL)
+        return NULL;
+    while (root->left != NULL)
+        root = root->left;
+    return root;
+}
+
+/* Tree Traversal = Process of Visiting/Reading/Processing each node in the tree exactly once in same order.
+
+1. Breadth-First
+    -> Level order - Access node level by level
+
+2. Depth-First
+
+    ==> Access orders of the node(s)
+    -> PreOrder  = <root> --> <left>  --> <right>
+    -> InOrder   = <left> --> <root>  --> <right>
+    -> PostOrder = <left> --> <right> --> <root>
+
+*/
