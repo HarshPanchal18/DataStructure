@@ -195,3 +195,62 @@ struct Node *FindMin(struct Node *root)
     -> PostOrder = <left> --> <right> --> <root>
 
 */
+
+void CurrLevel(struct Node *root, int level)
+{
+    if (!root)
+        return;
+
+    if (level == 0)
+        printf("%d\t", root->data);
+
+    else
+    {
+        CurrLevel(root->left, level - 1);
+        CurrLevel(root->right, level - 1);
+    }
+}
+
+void LevelOrder(struct Node *root)
+{
+
+    int h = FindHeight(root);
+
+    for (int i = 0; i <= h; i++)
+    {
+        printf("level %d : ", i + 1);
+        CurrLevel(root, i);
+        printf("\n");
+    }
+    printf("\n");
+}
+
+void PreOrder(struct Node *root)
+{
+    if (root == NULL)
+        return;
+
+    printf("%2d ", root->data);
+    PreOrder(root->left);
+    PreOrder(root->right);
+}
+
+void InOrder(struct Node *root)
+{
+    if (root == NULL)
+        return;
+
+    InOrder(root->left);
+    printf("%2d ", root->data);
+    InOrder(root->right);
+}
+
+void PostOrder(struct Node *root)
+{
+    if (root == NULL)
+        return;
+
+    PostOrder(root->left);
+    PostOrder(root->right);
+    printf("%2d ", root->data);
+}
