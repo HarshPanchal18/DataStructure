@@ -254,3 +254,51 @@ void PostOrder(struct Node *root)
     PostOrder(root->right);
     printf("%2d ", root->data);
 }
+
+bool IsSubTreeLesser(struct Node *root, int data)
+{
+    if (root == NULL)
+        return true;
+
+    if (root->data <= data && IsSubTreeLesser(root->left, data) && IsSubTreeLesser(root->right, data))
+        return true;
+    else
+        return false;
+}
+
+bool IsSubTreeGreater(struct Node *root, int data)
+{
+    if (root == NULL)
+        return true;
+
+    if (root->data > data && IsSubTreeGreater(root->left, data) && IsSubTreeGreater(root->right, data))
+        return true;
+    else
+        return false;
+}
+
+bool IsBinary(struct Node *root)
+{
+    if (root == NULL)
+        return true;
+    if (IsSubTreeLesser(root->left, root->data) && IsSubTreeGreater(root->right, root->data) && IsBinary(root->left) && IsBinary(root->right))
+        return true;
+    else
+        return false;
+
+    /* You can call only Following function (IsBinarySeacrh()) instead of above lines.
+        return IsBinarySearch(root,INT_MAX,INT_MIN);
+    */
+}
+
+bool IsBinarySearch(struct Node *root, int min, int max)
+{
+
+    if (root == NULL)
+        return true;
+
+    if (root->data > min && root->data < max && IsBinarySearch(root->left, min, root->data) && IsBinarySearch(root->right, root->data, max))
+        return true;
+    else
+        return false;
+}
