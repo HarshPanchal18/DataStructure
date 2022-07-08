@@ -302,3 +302,62 @@ bool IsBinarySearch(struct Node *root, int min, int max)
     else
         return false;
 }
+
+/*
+
+Deletion of Node:
+
+    Case 1: No leaf-node
+    Case 2: One leaf-node
+    Case 3: Two leaf-node
+
+    Find Min in Right SubTree -> Copy the value in targetted node -> Delete duplicate from Right SubTree
+    OR
+    Find Max in Left SubTree  -> Copy the value in targetted node  -> Delete duplicate from Left SubTree
+
+*/
+
+struct Node *Delete(struct Node *root, int data)
+{
+    if (root == NULL)
+        return root;
+
+    else if (data < root->data)
+        root->left = Delete(root->left, data);
+
+    else if (data > root->data)
+        root->right = Delete(root->right, data);
+
+    else
+    {
+        // Case 1: No Child
+        if (root->left == NULL && root->right == NULL)
+        {
+            free(root);
+            root = NULL;
+        }
+
+        // Case 2: One Child
+        else if (root->left == NULL)
+        {
+            struct Node *temp = root; // store the address of the current node to the temp-node you want to delete
+            root = root->right;       // move the root to the right
+            free(temp);
+        }
+        else if (root->right == NULL)
+        {
+            struct Node *temp = root; // store the address of the current node to the temp-node you want to delete
+            root = root->left;        // move the root to the left
+            free(temp);
+        }
+
+        // Case 3: Two Children
+        else
+        {
+            struct Node *temp = RecMin(root->right);
+            root->data = temp->data;                       // set the data to the current node
+            root->right = Delete(root->right, temp->data); // delete the min. value from the right-tree
+        }
+    }
+    return root;
+}
