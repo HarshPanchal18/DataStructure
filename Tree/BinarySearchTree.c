@@ -361,3 +361,59 @@ struct Node *Delete(struct Node *root, int data)
     }
     return root;
 }
+
+struct Node *Find(struct Node *root, int data)
+{
+    if (root == NULL)
+        return NULL;
+    if (root->data == data)
+        return root;
+    else if (data <= root->data)
+        return Find(root->left, data);
+    else
+        return Find(root->right, data);
+}
+
+struct Node *GetSuccessor(struct Node *root, int data)
+{
+    // Successors  = Leftmost element in a right subtree (Next greater of root->data)
+    // Predecessor = Rightmost element in a left subtree (Prev. smaller of root->data)
+    // search the node
+    struct Node *curr = Find(root, data);
+    if (curr == NULL)
+        return NULL;
+
+    if (curr->right != NULL)
+    {
+        /*  Case 1: Node has right subtree
+                Go deep the leftmost node in right subtree
+                OR
+                Find /min. in right subtree     */
+
+        // you can alter this block by applying --->>> return FindMin(root->right);
+        struct Node *temp = curr->right;
+        while (temp->left != NULL)
+            temp = temp->left;
+        return temp;
+    }
+    else
+    {
+        /*  Case 2: Node has no right subtree
+                Go to the nearest ancestor(a node that is at the upper level of the given node) for which given node would be in left subtree*/
+
+        struct Node *Succesor = NULL;
+        struct Node *Ancestor = root;
+
+        while (Ancestor != curr)
+        {
+            if (curr->data < Ancestor->data)
+            {
+                Succesor = Ancestor; // Deepest node for which current node is in left
+                Ancestor = Ancestor->left;
+            }
+            else
+                Ancestor = Ancestor->right;
+        }
+        return Succesor;
+    }
+}
