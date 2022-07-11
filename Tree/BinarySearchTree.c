@@ -417,3 +417,58 @@ struct Node *GetSuccessor(struct Node *root, int data)
         return Succesor;
     }
 }
+
+// Returns the level of the data in a tree otherwise return -1
+int FindLevel(struct Node *root, int data, int level)
+{
+    if (root == NULL)
+        return -1;
+
+    // If key is present at root or in left subtree
+    if (root->data == data)
+        return level;
+
+    int l = FindLevel(root->left, data, level + 1);
+    return (l != -1) ? l : FindLevel(root->right, data, level + 1);
+}
+
+int GetLevel(struct Node *root, struct Node *node, int level)
+{
+    if (root == NULL)
+        return 0;
+
+    // If key is present at root or in left subtree
+    if (root == node)
+        return level;
+
+    int l = GetLevel(root->left, node, level + 1);
+    return (l != 0) ? l : GetLevel(root->right, node, level + 1);
+}
+
+void PrintGivenLevel(struct Node *root, struct Node *node, int level)
+{
+    if (root == NULL || level < 2)
+        return;
+
+    // If a current node is parent of a node with given level
+    if (level == 2)
+    {
+        if (root->left == node || root->right == node)
+            return;
+        if (root->left)
+            printf("%d ", root->left->data);
+        if (root->right)
+            printf("%d ", root->right->data);
+    }
+    else if (level > 2)
+    {
+        PrintGivenLevel(root->left, node, level - 1);
+        PrintGivenLevel(root->right, node, level - 1);
+    }
+}
+
+void PrintCousin(struct Node *root, struct Node *node)
+{
+    int level = GetLevel(root, node, 0);
+    PrintGivenLevel(root, node, level);
+}
