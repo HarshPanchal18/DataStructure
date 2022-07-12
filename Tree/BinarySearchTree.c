@@ -472,3 +472,58 @@ void PrintCousin(struct Node *root, struct Node *node)
     int level = GetLevel(root, node, 0);
     PrintGivenLevel(root, node, level);
 }
+
+struct Node *FindDistUtil(struct Node *root, int no1, int no2, int d1, int d2, int level, int dist)
+{
+    if (root == NULL)
+        return NULL;
+
+    // If either no1 or no2 matches with root's data, report the presence by returning root
+    if (root->data == no1)
+    {
+        d1 = level;
+        return root;
+    }
+    if (root->data == no2)
+    {
+        d2 = level;
+        return root;
+    }
+
+    // Look for no1 and no2 in left and right subtree
+    struct Node *left = FindDistUtil(root->left, no1, no2, d1, d2, level, dist);
+    struct Node *right = FindDistUtil(root->right, no1, no2, d1, d2, level, dist);
+
+    // If both of the above returns the Non-NULL, then one key is present in once subtree and the other is present in other.
+    if (left && right)
+    {
+        dist = d1 + d2 - 2 * level;
+        return root;
+    }
+    return (left != NULL) ? left : right;
+}
+
+int FindDist(struct Node *root, int n1, int n2)
+{
+    int d1 = -1, d2 = -1, dist;
+    struct Node *lca = FindDistUtil(root, n1, n2, d1, d2, dist, 1);
+
+    // If both n1 and n2 were present in the tree, return dist
+    if (d1 != -1 && d2 != -1)
+        return dist;
+
+    // If n1 is Ancestor of n2, consider n1 as root and find level of n2 in subtree rooted with n2
+    if (d1 != -1)
+    {
+        dist = FindLevel(lca, n2, 0);
+        return dist;
+    }
+
+    // If n2 is Ancestor of n1, consider n2 as root and find level of n1 in subtree rooted with n2
+    if (d2 != -1)
+    {
+        dist = FindLevel(lca, n1, 0);
+        return dist;
+    }
+    return -1;
+}
