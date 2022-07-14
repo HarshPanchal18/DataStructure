@@ -527,3 +527,51 @@ int FindDist(struct Node *root, int n1, int n2)
     }
     return -1;
 }
+
+int count(struct Node *root)
+{
+    int c = 1;
+    if (root == NULL)
+        return 0;
+    else
+    {
+        c += count(root->left);
+        c += count(root->right);
+        return c;
+    }
+}
+
+void PrintLeftTree(struct Node *root)
+{
+    if (root->left == NULL)
+        return;
+    else
+    {
+        root = root->left;
+        printf("%2d\n", root->data);
+        PrintLeftTree(root);
+    }
+}
+
+void PrintRightTree(struct Node *root)
+{
+    if (root->right == NULL)
+        return;
+    else
+    {
+        root = root->right;
+        printf("%2d\n", root->data);
+        PrintRightTree(root);
+    }
+}
+
+void InOrder2(struct Node *root)
+{
+    if (root->left)
+        InOrder2(root->left);
+
+    printf("%d  ", root->data);
+
+    if (root->right)
+        InOrder2(root->right);
+}
