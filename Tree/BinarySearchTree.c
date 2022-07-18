@@ -575,3 +575,67 @@ void InOrder2(struct Node *root)
     if (root->right)
         InOrder2(root->right);
 }
+
+
+void CountLeaf(struct Node *root)
+{
+    if (root == NULL)
+        return;
+
+    if (root->left == NULL && root->right == NULL)
+        counter++;
+
+    CountLeaf(root->left);
+    CountLeaf(root->right);
+}
+
+void PrintLeaf(struct Node *root)
+{
+    if (root != NULL)
+    {
+        if (root->left == NULL && root->right == NULL)
+            printf("%d ", root->data);
+        else
+        {
+            PrintLeaf(root->left);
+            PrintLeaf(root->right);
+        }
+    }
+    else
+        return;
+}
+
+int GetRoot(struct Node *root)
+{
+    if (root == NULL)
+        return 0;
+    else
+        return root->data;
+}
+
+int Diameter(struct Node *root)
+{
+    if (root == NULL)
+        return 0;
+
+    int DLeft = Diameter(root->left);
+    int DRight = Diameter(root->right);
+
+    int curr = FindHeight(root->left) + FindHeight(root->right) + 1;
+
+    return Maxx(curr, Maxx(DLeft, DRight)) + 1;
+}
+
+int ans = 1;
+
+int Diameter2(struct Node *root)
+{
+    if (root == NULL)
+        return 0;
+    int LeftSize = Diameter2(root->left);
+    int RightSize = Diameter2(root->right);
+
+    ans = Maxx(ans, 1 + LeftSize + RightSize);
+
+    return 1 + Maxx(LeftSize, RightSize);
+}
