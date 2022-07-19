@@ -639,3 +639,41 @@ int Diameter2(struct Node *root)
 
     return 1 + Maxx(LeftSize, RightSize);
 }
+
+void PrintLeftBoundary(struct Node *root)
+{
+    if (root == NULL)
+        return;
+
+    struct Node *temp = root;
+    while (temp != NULL)
+    {
+        printf("%d ", temp->data);
+        temp = (temp->left) ? (temp->left) : (temp->right);
+    }
+}
+
+void PrintRightBoundry(struct Node *root)
+{
+    if (root == NULL || (root->left == NULL && root->right == NULL))
+        return;
+
+    PrintRightBoundry(root->right ? root->right : root->left);
+    printf("%d ", root->data);
+}
+
+void printBorder(struct Node *root)
+{
+    if (root == NULL)
+        return;
+
+    printf("%d ", root->data);
+
+    PrintLeftBoundary(root->left);
+
+    if (root->left == NULL && root->right == NULL)
+        PrintLeaf(root);
+
+    PrintRightBoundry(root->right);
+}
+
