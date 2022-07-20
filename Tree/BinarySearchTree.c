@@ -677,3 +677,213 @@ void printBorder(struct Node *root)
     PrintRightBoundry(root->right);
 }
 
+int main(void)
+{
+    struct Node *root = NULL; // a pointer for the root, not root itself.
+    int choice, n, ele;
+
+    while (1)
+    {
+        printf("\n");
+        printf("\n1.  Insert a NewNode");
+        printf("\n2.  Enter Multiple Nodes at a time");
+        printf("\n3.  Delete a Node");
+        printf("\n4.  Display Tree in LevelOrder (ZigZag)");
+        printf("\n5.  Display Tree in PreOrder   (root, left,  right)");
+        printf("\n6.  Display Tree in InOrder    (left, root,  right)");
+        printf("\n7.  Display Tree in PostOrder  (left, right, root)");
+        printf("\n8.  Display Tree");
+        printf("\n9.  Print Left SubTree");
+        printf("\n10. Print Right SubTree");
+        printf("\n11. Print Border of the tree");
+        printf("\n12. Print Leaf Nodes");
+        printf("\n13. Print Root Element");
+        printf("\n14. Check is element(Node) is existed in a Tree or not");
+        printf("\n15. Count the number of Nodes in the tree");
+        printf("\n16. Count the number of Leafs in the tree");
+        printf("\n17. Get the Maximum and Minimum from the tree");
+        printf("\n18. Get the Height and Depth of the Tree");
+        printf("\n19. Get the Largest path from the tree");
+        printf("\n20. Check is a tree is a Binary tree or not");
+        printf("\n21. Reset the entire Tree");
+        printf("\n22. Exit");
+        // printf("\n23. Print Cousins");
+
+        printf("\n\nEnter your choice: ");
+        scanf("%d", &choice);
+        printf("\n");
+
+        switch (choice)
+        {
+
+        case 1:
+            printf("Enter the element: ");
+            scanf("%d", &n);
+            root = Insert(root, n);
+
+            break;
+
+        case 2:
+            printf("Enter the number of elements: ");
+            scanf("%d", &n);
+
+            for (int i = 0; i < n; i++)
+            {
+                printf("\nEnter Node Value: ");
+                scanf("%d", &ele);
+                root = Insert(root, ele);
+            }
+
+            break;
+
+        case 3:
+            printf("Enter the element to delete: ");
+            scanf("%d", &ele);
+            root = Delete(root, ele);
+
+            break;
+
+        case 4:
+            printf("Your tree in LevelOrder:\n");
+            LevelOrder(root);
+
+            break;
+
+        case 5:
+            printf("Your tree in PreOrder:\n");
+            PreOrder(root);
+
+            break;
+
+        case 6:
+            printf("Your tree in InOrder:\n");
+            InOrder(root);
+
+            break;
+
+        case 7:
+            printf("Your tree in PostOrder:\n");
+            PostOrder(root);
+
+            break;
+
+        case 8:
+            printf("\nGiven Tree is: ");
+            InOrder2(root);
+
+            break;
+
+        case 9:
+            printf("Your Left SubTree:\n");
+            PrintLeftTree(root);
+
+            break;
+
+        case 10:
+            printf("Your Right SubTree:\n");
+            PrintRightTree(root);
+
+            break;
+
+        case 11:
+            printBorder(root);
+
+            break;
+
+        case 12:
+            PrintLeaf(root);
+
+            break;
+
+        case 13:
+            ele = GetRoot(root);
+            printf("The root node is: %d", ele);
+
+            break;
+
+        case 14:
+            printf("Enter the data to search: ");
+            scanf("%d", &ele);
+
+            if (Search(root, ele) == true)
+                printf("%d is Existed in a Tree.!!!", ele);
+            else
+                printf("%d is not Exist in a Tree.!!!", ele);
+            printf("\n");
+
+            break;
+
+        case 15:
+            ele = count(root);
+            printf("The number of Nodes in tree is: %d\n", ele);
+
+            break;
+
+        case 16:
+            CountLeaf(root);
+            printf("The Number of leaf nodes is: %d\n", counter);
+
+            break;
+
+        case 17:
+            ele = RecMin(root);
+            printf("Minimum from Tree: %d\n", ele);
+
+            ele = RecMax(root);
+            printf("Maximum from Tree: %d\n", ele);
+
+            break;
+
+        case 18:
+            ele = FindHeight(root);
+            printf("Height of Tree: %d\n", ele);
+
+            ele = FindDepth(root);
+            printf("Depth of Tree: %d\n", ele);
+
+            break;
+
+        case 19:
+            ele = Diameter(root);
+            printf("The Largest path of the tree is: %d\n", ele);
+
+            //  ele = Diameter2(root);
+            //  printf("\nThe Largest path of the tree is: %d\n", ele);
+
+            break;
+
+        case 20:
+            if (IsBinary(root) == true)
+                printf("Given Tree is Binary Search Tree");
+            else
+                printf("Given Tree is not a Binary Search Tree");
+
+            break;
+
+        case 21:
+            // FreeTree(root);
+
+            // DeleteTree(root);
+
+            DeleteTree(root);
+            root = NULL;
+
+            if (root == NULL)
+                printf("Tree is Cleared successfully...");
+
+            break;
+
+        case 22:
+            printf("You're Kicked out...");
+            exit(0);
+
+        /*case 23:
+            PrintCousin(root, root->left->right);
+            PrintCousin(root, root->right->left);
+            break;
+        */
+        default:
+            printf("\nInvalid choice");
+        }
+    }
+}
