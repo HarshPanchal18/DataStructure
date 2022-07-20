@@ -141,3 +141,57 @@ public:
         return temp;
     }
 }
+
+int main(void)
+{
+    BinaryTree tree;
+    char ch;
+    Node *copy;
+    int f = 1, n;
+    while (f)
+    {
+        cout << "\n1.Insert";
+        cout << "\n2.Display";
+        cout << "\n3.Depth";
+        cout << "\n4.Display Leaf";
+        cout << "\n5. Create a copy";
+        cout << "\n6. Exit";
+        cout << "\nEnter your choice:";
+        cin >> ch;
+        switch (ch)
+        {
+        case 1:
+            cout << "\nEnter the key to insert: ";
+            cin >> n;
+            tree.insert(n);
+            break;
+
+        case 2:
+            tree.display(tree.getRoot());
+            break;
+
+        case 3:
+            cout << "\nDepth of the given tree: " << tree.depth(tree.getRoot()) << endl;
+            break;
+
+        case 4:
+            tree.displayLeaf(tree.getRoot());
+            break;
+
+        case 5:
+            copy = tree.copyTree(tree.getRoot());
+            cout << "\nTree Copied...";
+
+            cout << "\nOriginal:";
+            tree.display(tree.getRoot());
+
+            cout << "\nCopied: ";
+            tree.display(tree.getRoot());
+            break;
+
+        case 6:
+            // exit(0);
+            f = 0;
+        }
+    }
+}
