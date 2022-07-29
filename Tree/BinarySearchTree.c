@@ -677,6 +677,37 @@ void printBorder(struct Node *root)
     PrintRightBoundry(root->right);
 }
 
+struct Node *invertTree(struct Node *root)
+{
+    if (!root)
+        return root;
+
+    struct Node *tempR = invertTree(root->right);
+    root->right = invertTree(root->left);
+    root->left = tempR;
+    return root;
+}
+
+int sumOfLeftLeaves(struct Node *root)
+{
+    if (!root)
+        return 0;
+
+    int r = root->left && !root->left->right && !root->left->left ? root->left->data : 0;
+
+    return r + sumOfLeftLeaves(root->left) + sumOfLeftLeaves(root->right);
+}
+
+int sumOfRightLeaves(struct Node *root)
+{
+    if (!root)
+        return 0;
+
+    int r = root->right && !root->right->right && !root->right->left ? root->right->data : 0;
+
+    return r + sumOfRighLeaves(root->left) + sumOfRightLeaves(root->right);
+}
+
 int main(void)
 {
     struct Node *root = NULL; // a pointer for the root, not root itself.
@@ -701,13 +732,15 @@ int main(void)
         printf("\n14. Check is element(Node) is existed in a Tree or not");
         printf("\n15. Count the number of Nodes in the tree");
         printf("\n16. Count the number of Leafs in the tree");
-        printf("\n17. Get the Maximum and Minimum from the tree");
-        printf("\n18. Get the Height and Depth of the Tree");
-        printf("\n19. Get the Largest path from the tree");
-        printf("\n20. Check is a tree is a Binary tree or not");
-        printf("\n21. Reset the entire Tree");
-        printf("\n22. Exit");
-        // printf("\n23. Print Cousins");
+        printf("\n17. Sum of Left Leaves in the tree");
+        printf("\n18. Sum of Left Leaves in the tree");
+        printf("\n19. Get the Maximum and Minimum from the tree");
+        printf("\n20. Get the Height and Depth of the Tree");
+        printf("\n21. Get the Largest path from the tree");
+        printf("\n22. Check if a tree is a Binary tree or not");
+        printf("\n23. Reset the entire Tree");
+        printf("\n24. Invert Tree");
+        printf("\n25. Exit");
 
         printf("\n\nEnter your choice: ");
         scanf("%d", &choice);
@@ -825,7 +858,17 @@ int main(void)
 
             break;
 
-        case 17:
+         case 17:
+            ele = sumOfLeftLeaves(root);
+            printf("Sum of Left Leaves: %d\n", ele);
+            break;
+
+        case 18:
+            ele = sumOfRightLeaves(root);
+            printf("Sum of Right Leaves: %d\n", ele);
+            break;
+
+        case 19:
             ele = RecMin(root);
             printf("Minimum from Tree: %d\n", ele);
 
@@ -834,7 +877,7 @@ int main(void)
 
             break;
 
-        case 18:
+        case 20:
             ele = FindHeight(root);
             printf("Height of Tree: %d\n", ele);
 
@@ -843,7 +886,7 @@ int main(void)
 
             break;
 
-        case 19:
+        case 21:
             ele = Diameter(root);
             printf("The Largest path of the tree is: %d\n", ele);
 
@@ -852,7 +895,7 @@ int main(void)
 
             break;
 
-        case 20:
+        case 22:
             if (IsBinary(root) == true)
                 printf("Given Tree is Binary Search Tree");
             else
@@ -860,7 +903,7 @@ int main(void)
 
             break;
 
-        case 21:
+        case 23:
             // FreeTree(root);
 
             // DeleteTree(root);
@@ -873,15 +916,20 @@ int main(void)
 
             break;
 
-        case 22:
+            /*case 23:
+                PrintCousin(root, root->left->right);
+                PrintCousin(root, root->right->left);
+                break;
+            */
+
+        case 24:
+            root = invertTree(root);
+            break;
+
+        case 25:
             printf("You're Kicked out...");
             exit(0);
-
-        /*case 23:
-            PrintCousin(root, root->left->right);
-            PrintCousin(root, root->right->left);
-            break;
-        */
+            
         default:
             printf("\nInvalid choice");
         }
