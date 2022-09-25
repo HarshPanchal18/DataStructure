@@ -733,7 +733,7 @@ int main(void)
         printf("\n15. Count the number of Nodes in the tree");
         printf("\n16. Count the number of Leafs in the tree");
         printf("\n17. Sum of Left Leaves in the tree");
-        printf("\n18. Sum of Left Leaves in the tree");
+        printf("\n18. Sum of Right Leaves in the tree");
         printf("\n19. Get the Maximum and Minimum from the tree");
         printf("\n20. Get the Height and Depth of the Tree");
         printf("\n21. Get the Largest path from the tree");
