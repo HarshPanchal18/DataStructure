@@ -1,4 +1,3 @@
-
 // Application's Memory
 /*
 Heap - Free Memory
@@ -7,14 +6,10 @@ Static/Global - Store the Global variables
 Code/Text - Store other Statements
 */
 
-// Index:
-// Linked list              from Line 20 to 319
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <malloc.h>
 
-// 18/12/2021 - 22/12/2021
 // Singly Linked List
 
 struct Node
@@ -314,5 +309,5 @@ int main(void)
         default:
             printf("Invalid choice");
         } // switch
-    }     // while
+    } // while
 }
