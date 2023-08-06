@@ -5,7 +5,7 @@ public class LinkedList2 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        /* Creating object of class linkedLixst */
+        /* Creating object of class linkedList */
 
         LinkedList<Integer> Llist = new LinkedList<>();
         System.out.println("Singly Linked List Test\n");
@@ -26,47 +26,36 @@ public class LinkedList2 {
             choice = input.nextInt();
 
             switch (choice) {
-                case 1:
+                case 1 -> {
                     System.out.println("Enter integer element to insert last");
                     int item = input.nextInt();
                     Llist.addLast(item);
-                    break;
-
-                case 2:
+                }
+                case 2 -> {
                     System.out.println("Enter integer element to insert first");
                     int item1 = input.nextInt();
                     Llist.addFirst(item1);
-                    break;
-
-                case 3:
+                }
+                case 3 -> {
                     System.out.println("Enter integer element to insert");
                     int num = input.nextInt();
-
                     System.out.println("Enter position");
                     int pos = input.nextInt();
-
                     if (pos < 1 || pos > Llist.getLast() + 1)
                         System.out.println("Invalid position\n");
                     else
                         Llist.add(pos, num);
-                    break;
-
-                case 4:
+                }
+                case 4 -> {
                     System.out.println("Enter position");
                     int p = input.nextInt();
-
                     if (p < 1 || p > Llist.getLast() + 1)
                         System.out.println("Invalid position\n");
                     else
                         Llist.remove(p);
-                    break;
-
-                case 5:
-                    System.out.println(Llist);
-                    break;
-
-                default:
-                    System.out.println("Wrong Entry or You Selected To exit\n ");
+                }
+                case 5 -> System.out.println(Llist);
+                default -> System.out.println("Wrong Entry or You Selected To exit\n ");
             }
         } while (choice != 6);
     }
