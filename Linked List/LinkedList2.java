@@ -26,17 +26,17 @@ public class LinkedList2 {
             choice = input.nextInt();
 
             switch (choice) {
-                case 1 -> {
+                case 1: {
                     System.out.println("Enter integer element to insert last");
                     int item = input.nextInt();
                     Llist.addLast(item);
                 }
-                case 2 -> {
+                case 2: {
                     System.out.println("Enter integer element to insert first");
                     int item1 = input.nextInt();
                     Llist.addFirst(item1);
                 }
-                case 3 -> {
+                case 3: {
                     System.out.println("Enter integer element to insert");
                     int num = input.nextInt();
                     System.out.println("Enter position");
@@ -46,7 +46,7 @@ public class LinkedList2 {
                     else
                         Llist.add(pos, num);
                 }
-                case 4 -> {
+                case 4: {
                     System.out.println("Enter position");
                     int p = input.nextInt();
                     if (p < 1 || p > Llist.getLast() + 1)
@@ -54,9 +54,13 @@ public class LinkedList2 {
                     else
                         Llist.remove(p);
                 }
-                case 5 -> System.out.println(Llist);
-                default -> System.out.println("Wrong Entry or You Selected To exit\n ");
+                case 5:
+                    System.out.println(Llist);
+                default:
+                    System.out.println("Wrong Entry or You Selected To exit\n ");
+                    input.close();
             }
-        } while (choice != 6);
+        } while (true);
+
     }
 }

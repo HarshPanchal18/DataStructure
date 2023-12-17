@@ -206,5 +206,7 @@ public class LinkedList {
             System.out.println("\nDo you want to continue?");
             ch = scan.next().charAt(0);
         } while (ch == 'y' || ch == 'Y');
+
+        scan.close();
     }
 }

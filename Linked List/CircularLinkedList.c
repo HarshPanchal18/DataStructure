@@ -14,7 +14,6 @@ NODE last = NULL;
 
 void CreateNodeOf(int x)
 {
-    NODE q;
     NODE temp = (struct node *)malloc(sizeof(struct node));
     temp->data = x;
     if (last == NULL) // If list has only one element
@@ -122,12 +121,12 @@ void display()
         return;
     }
 
-    NODE q = last->next;
+    NODE temp = last->next;
     printf("\nList is :\t");
-    while (q != last)
+    while (temp != last)
     {
-        printf("%d\t", q->data);
-        q = q->next;
+        printf("%d\t", temp->data);
+        temp = temp->next;
     }
     printf("%d\n", last->data);
 }
