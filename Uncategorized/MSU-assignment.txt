@@ -1,0 +1,901 @@
+Assignment 1
+
+1.	Write a program that reads an integer from the user and prints the square of the given integer, i.e. the integer multiplied by itself.
+
+import java.util.Scanner;
+public class Ass1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int num = scan.nextInt();
+        System.out.println(num * num);
+        scan.close();
+    }
+}
+
+2.	Write a program that reads two integers from the user and prints the square root of the sum of these integers. The program does not need to work with negative values. You can calculate the square root of an integer with the command Math.sqrt
+
+import java.util.Scanner;
+public class Ass1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int num1 = scan.nextInt();
+        int num2 = scan.nextInt();
+        System.out.println(Math.sqrt(Math.abs(num1) + Math.abs(num2)));
+        scan.close();
+    }
+}
+
+3.	Write a program that reads an integer from the user. If the number is less than 0, the program prints the given integer multiplied by -1. In all other cases, the program prints the number itself.
+
+import java.util.Scanner;
+public class Ass1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int num = scan.nextInt();
+        if (num < 0) {
+            System.out.println(num * -1);
+        } else {
+            System.out.println(num);
+        }
+        scan.close();
+    }
+}
+
+4.	Write a program that reads two integers from the user. If the first number is greater than the second, the program prints "(first) is greater than (second)." If the first number is less than the second, the program prints "(first) is smaller than (second)." Otherwise, the program prints "(first) is equal to (second)." The (first) and (second) should always be replaced with the actual numbers that were provided by the user.
+
+import java.util.Scanner;
+public class Ass1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        if (a > b)
+            System.out.println(a + " is greater than " + b);
+        else if (a < b)
+            System.out.println(a + " is smaller than " + b);
+        else
+            System.out.println(a + " is equal to " + b);
+
+        scan.close();
+    }
+}
+
+5.	Write a program that asks the user for numbers. If the number is negative (smaller than zero), the program prints for user "Unsuitable number" and asks the user for a new number. If the number is zero, the program exits the loop. If the number is positive, the program prints the number to the power of two.
+
+import java.util.Scanner;
+public class Ass1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int num = scan.nextInt();
+
+        if (num < 0) {
+            System.out.println("Unsuitable number");
+            num = scan.nextInt();
+            if (num == 0) {
+                System.exit(0);
+            }
+
+        } else {
+            System.out.println(Math.pow(num, 2));
+        }
+        scan.close();
+    }
+}
+
+6.	Write a program that reads values from the user until they input a 0. After this, the program prints the total number of inputted values. The zero that's used to exit the loop should not be included in the total number count.
+Example output of the program:
+Give a number:
+5
+Give a number:
+22
+Give a number:
+9
+Give a number:
+-2
+Give a number:
+0
+Number of numbers: 4
+
+import java.util.Scanner;
+public class Ass1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Give a number: ");
+        int n = scan.nextInt();
+        int count = 0;
+
+        while (n != 0) {
+            count++;
+            System.out.print("Give a number: ");
+            n = scan.nextInt();
+        }
+
+        System.out.println("Number of numbers: " + count);
+        scan.close();
+    }
+}
+
+7.	Write a program that reads values from the user until they input a 0. After this, the program prints the total number of inputted values that are negative. The zero that's used to exit the loop should not be included in the total number count.
+Example output of the program:
+Give a number:
+5
+Give a number:
+22
+Give a number:
+9
+Give a number:
+-2
+Give a number:
+0
+Number of negative numbers: 1
+
+import java.util.Scanner;
+public class Ass1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int num;
+        int count = 0;
+
+        do {
+            System.out.print("Give a number: ");
+            num = scan.nextInt();
+
+            if (num < 0)
+                count++;
+
+        } while (num != 0);
+        System.out.println("Number of negative numbers: " + count);
+        scan.close();
+    }
+}
+
+8.	Write a program that reads numbers from the user until the user inputs a number 0. After this the program outputs the sum of the numbers. The number zero does not need to be added to the sum, even if it does not change the results.
+Example output of the program:
+Sample output
+Give a number:
+5
+Give a number:
+22
+Give a number:
+9
+Give a number:
+-2
+Give a number:
+0
+Sum of the numbers: 34
+
+import java.util.Scanner;
+public class Ass1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int sum = 0;
+        while (true) {
+            System.out.print("Give a number: ");
+            int num = scan.nextInt();
+            if (num == 0)
+                break;
+            sum += num;
+        }
+        System.out.println("Sum of the numbers: " + sum);
+        scan.close();
+    }
+}
+
+9.	Implement a program which calculates the factorial of a number given by the user.
+Factorial of n, denoted n!, is calculated as 1 * 2 * 3 * ... * n. For example, the factorial of 4 is 24 or 4! = 1 * 2 * 3 * 4 = 24. Additionally, it has been specified that the factorial of 0 is 1, so 0! = 1.
+
+import java.util.Scanner;
+public class Ass1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = scan.nextInt();
+        int fact = 1;
+
+        for (int i = 1; i <= n; i++)
+            fact *= i;
+
+        System.out.println("Factorial of " + n + " is " + fact);
+        scan.close();
+    }
+}
+
+10.	The exercise template already contains a program, that creates an array and prints the values of the array twice. Modify the program to do following: After the first printing, the program should ask for two indices from the user. The values in these two indices should be swapped, and in the end the values of the array should be printed once again.
+1
+3
+5
+7
+9
+Give two indices to swap:
+2
+4
+1
+3
+9
+7
+5
+
+import java.util.Scanner;
+public class Ass1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int[] arr = { 1, 3, 5, 7, 9, 11, 13 };
+
+        for (int i = 0; i < arr.length; i++)
+            System.out.print(arr[i] + " ");
+
+        System.out.println();
+
+        System.out.println("Give two indices to swap:");
+        int index1 = scan.nextInt();
+        int index2 = scan.nextInt();
+
+        int temp = arr[index1];
+        arr[index1] = arr[index2];
+        arr[index2] = temp;
+
+        for (int i = 0; i < arr.length; i++)
+            System.out.print(arr[i] + " ");
+
+        scan.close();
+    }
+}
+
+
+ASSIGNMENT 2
+
+1.	Create the following method : public static void printUntilNumber(int number). It should print the numbers from one to the number passed as a parameter.
+public class Ass2 {
+    public static void main(String[] args) {
+        printUntilNumber(4);
+    }
+
+    public static void printUntilNumber(int number) {
+        for (int i = 1; i <= number; i++) {
+            System.out.print(i + " ");
+        }
+    }
+}
+
+2.	Create the following method in the exercise template: public static void printFromNumberToOne(int number). It should print the numbers from the number passed as a parameter down to one.
+
+public class Ass2 {
+    public static void main(String[] args) {
+	printFromNumberToOne(5);
+    }
+
+    public static void printFromNumberToOne(int number) {
+        for (int i = number; i > 0; i--) {
+            System.out.print(i + " ");
+        }
+    }
+}
+
+3.	Write a method public static void divisibleByThreeInRange(int beginning, int end) that prints all the numbers divisible by three in the given range. The numbers are to be printed in order from the smallest to the greatest.
+public class Ass2 {
+    public static void main(String[] args) {
+        divisibleByThreeInRange(1, 30);
+    }
+
+    public static void divisibleByThreeInRange(int beginning, int end) {
+        if (beginning > end) {
+            int temp = beginning;
+            beginning = end;
+            end = temp;
+        }
+
+        if (beginning <= end) {
+            for (int i = beginning; i <= end; i++) {
+                if (i % 3 == 0) {
+                    System.out.println(i);
+                }
+            }
+        }
+    }
+}
+
+4.	Define a method called greatest that takes three numbers and returns the greatest of them. If there are multiple greatest values, returning one of them is enough. Printing will take place in the main program.
+
+
+public class Ass2 {
+    public static void main(String[] args) {
+        int[] arr = { 1, 3, 5, 7, 9, 11, 13 };
+        System.out.println(greatest(arr));
+    }
+
+    public static int greatest(int[] arr) {
+        int greatest = arr[0];
+        for (int i = 1; i < arr.length; i++)
+            if (arr[i] > greatest)
+                greatest = arr[i];
+        return greatest;
+    }
+}
+                                                   ARRAYS
+5.	The program should ask for two indices from the user. The values in these two indices should be swapped, and in the end the values of the array should be printed once again.
+1
+3
+5
+7
+9
+Give two indices to swap:
+2
+4
+1
+3
+9
+7
+5
+
+public class Ass2 {
+    public static void main(String[] args) {
+        int[] indices = { 1, 3, 5, 7, 9, 11, 13 };
+        swap(indices, 2, 5);
+
+        for (int i = 0; i < indices.length; i++)
+            System.out.print(indices[i] + " ");
+
+    }
+
+    public static void swap(int[] arr, int index1, int index2) {
+        int temp = arr[index1];
+        arr[index1] = arr[index2];
+        arr[index2] = temp;
+    }
+}
+
+6.	it asks the user for a number to search in the array. If the array contains the given number, the program tells the index containing the number. If the array doesn't contain the given number, the program will advise that the number wasn't found.(Use ArrayIndexOutOfBoundsException)
+import java.util.Scanner;
+
+public class Ass2 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        int[] arr = { 1, 3, 5, 7, 9, 11, 13 };
+        int index = -1;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == n) {
+                index = i;
+                break;
+            }
+        }
+
+        try {
+            if (index == -1) {
+                throw new ArrayIndexOutOfBoundsException("Number not found");
+            } else {
+                System.out.println("Number found at index: " + index);
+            }
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        } finally {
+            scan.close();
+        }
+    }
+}
+
+7.	The class SumOfArray has a method public static int sumOfNumbersInArray(int[] array). Complete the method so that it computes and returns the sum of the numbers in the array it receives as parameter.
+import java.util.Scanner;
+
+public class Ass2 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("Enter the size of the array: ");
+        int size = scan.nextInt();
+        int[] array = new int[size];
+
+        System.out.println("Enter the elements of the array: ");
+        for (int i = 0; i < size; i++)
+            array[i] = scan.nextInt();
+
+        System.out.println(sumOfNumbersInArray(array));
+        scan.close();
+    }
+
+    public static int sumOfNumbersInArray(int[] array) {
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+        return sum;
+    }
+}
+
+STRINGS
+8.	Write a program that asks the user for a string. If the user writes the string "true", the program prints "You got it right!", otherwise it prints "Try again!".
+import java.util.Scanner;
+
+public class Ass2 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String str = scan.next();
+        if (str.equals("true")) {
+            System.out.println("You got it right!");
+        } else {
+            System.out.println("Try again!");
+        }
+    }
+}
+
+9.	Write a program that recognizes the following users:
+username	password
+alex	sunshine
+emma	haskell
+
+The program either shows a personal message or informs of an incorrect username or password.
+import java.util.Scanner;
+public class Ass2 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Please enter your username and password");
+        String username = scan.next();
+        String password = scan.next();
+
+        if (username.equals("alex") && password.equals("sunshine"))
+            System.out.println("Hello, Alex");
+
+        scan.close();
+    }
+}
+
+10.	Write a program that reads strings from the user. If the input is empty, the program stops reading input and halts. For each non-empty input it splits the string input by whitespaces   and prints each part of the string on a new line.
+once upon a time
+once
+upon
+a
+Time
+
+import java.util.Scanner;
+
+public class Ass2 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String input = "";
+
+        while (true) {
+            input = scan.nextLine();
+            String[] parts = input.split(" ");
+            for (String part : parts)
+                System.out.println(part);
+
+            if (input.equals(""))
+                break;
+        }
+        scan.close();
+    }
+}
+
+11.	Write a program that reads user input until an empty line. For each non-empty string, the program splits the string by spaces   and then prints the pieces that contain av, each on a new line.(Using contains method)
+java is a programming language
+java
+navy blue shirt
+Navy
+
+import java.util.Scanner;
+
+public class Ass2 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        while (true) {
+            String str = scan.nextLine();
+            String[] words = str.split(" ");
+            for (String word : words) {
+                if (word.contains("av")) {
+                    System.out.println(word);
+                }
+            }
+
+            if (str.equals(""))
+                break;
+        }
+        scan.close();
+    }
+}
+
+12.	Write a program that reads user input until an empty line is entered. For each non-empty line the program splits the string by spaces   and prints the first part of the string and last part of the string .
+one two three four
+One
+Four
+import java.util.Scanner;
+
+public class Ass2 {
+8
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String str;
+        do {
+            str = scan.nextLine();
+            if (!str.isEmpty()) {
+                String[] arr = str.split(" ");
+                System.out.println(arr[0]);
+                System.out.println(arr[arr.length - 1]);
+            }
+
+        } while (!str.isEmpty());
+
+        scan.close();
+    }
+}
+
+13.	Write a program that reads names and ages from the user until an empty line is entered. The name and age are separated by a comma.
+After reading all user input, the program prints the age of the oldest person. You can assume that the user enters at least one person, and that one of the users is older than the others.
+
+import java.util.Scanner;
+
+public class Ass2 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int maxAge = 0;
+        String maxName = "";
+        while (true) {
+            String line = scan.nextLine();
+            if (line.isEmpty())
+                break;
+
+            String[] parts = line.split(",");
+            String name = parts[0];
+            int age = Integer.parseInt(parts[1]);
+            if (age > maxAge) {
+                maxAge = age;
+                maxName = name;
+            }
+        }
+        System.out.println("The age of the oldest person is " + maxAge + " and the name is " + maxName);
+        scan.close();
+    }
+}
+
+
+ASSIGNMENT 5
+
+1.	Write a java program to print the exception information using printStackTrace() method.
+
+public class Ass3 {
+    public static void main(String[] args) {
+        try {
+            throw new Exception("Exception is raised");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+// java.lang.Exception: Exception is raised
+        at JavaAss4.Ass3.main(Ass3.java:7)
+
+2.	Write a java program to print the exception information using toString() method
+
+public class Ass3 {
+    public static void main(String[] args) {
+        try {
+            int a = 10, b = 0;
+            int c = a / b;
+            System.out.println(c);
+        } catch (ArithmeticException e) {
+            System.out.println(e.toString());
+        }
+    }
+}
+// java.lang.ArithmeticException: / by zero
+
+3.	Write a java program to print the exception information using getMessage() method
+public class Ass3 {
+    public static void main(String[] args) {
+        try {
+            int a = 10 / 0;
+            System.out.println(a);
+        } catch (ArithmeticException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
+// / by zero
+
+4.	Write a java program to demonstrate ArithmeticException.
+public class Ass3 {
+    public static void main(String[] args) {
+        try {
+            int a = 10;
+            int b = 0;
+            int c = a / b;
+            System.out.println(c);
+        } catch (ArithmeticException e) {
+            System.out.println("ArithmeticException: " + e.getMessage());
+        }
+    }
+}
+
+// Exception in thread "main" java.lang.ArithmeticException: / by zero
+        at JavaAss4.Ass3.main(Ass3.java:8)
+
+5.	Write a Java program to demonstrate NullPointerException.
+public class Ass3 {
+    public static void main(String[] args) {
+        String str = null;
+        System.out.println(str.length());
+    }
+}
+
+// Exception in thread "main" java.lang.NullPointerException
+        at JavaAss4.Ass3.main(Ass3.java:7)
+
+6.	Write a Java program to demonstrate StringIndexOutOfBoundsException.
+public class Ass3 {
+    public static void main(String[] args) {
+        String str = "Hello, World!";
+        System.out.println(str.charAt(20));
+    }
+}
+
+ /* Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 20
+ * at java.lang.String.charAt(String.java:658)
+ * at JavaAss4.Ass3.main(Ass3.java:7)
+ */
+
+7.	Write a Java program to demonstrate FileNotFoundException.
+
+import java.io.File;
+import java.io.FileNotFoundException;
+
+public class Ass3 {
+    public static void main(String[] args) {
+        File file = new File("test.txt");
+        try {
+            if (!file.exists())
+                throw new FileNotFoundException("File not found");
+            System.out.println("File found");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+// java.io.FileNotFoundException: File not found
+        at JavaAss4.Ass3.main(Ass3.java:12)
+
+8.	Write a Java program to demonstrate NumberFormatException.
+
+public class Ass3 {
+    public static void main(String[] args) {
+        String str = "a";
+        int num = Integer.parseInt(str);
+        System.out.println(num);
+    }
+}
+// Exception in thread "main" java.lang.NumberFormatException: For input string: "a"
+
+9.	Write a Java program to demonstrate ArrayIndexOutOfBoundException
+public class Ass3 {
+    public static void main(String[] args) {
+        int[] arr = { 1, 2, 3, 4, 5 };
+        System.out.println(arr[6]);
+    }
+}
+// Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
+        at JavaAss4.Ass3.main(Ass3.java:7)
+
+10.	Write a Java program to demonstrate IOException.
+import java.io.File;
+import java.io.IOException;
+
+public class Ass3 {
+    public static void main(String[] args) {
+        File file = new File("test.txt");
+        try {
+            if (file.exists()) {
+                file.createNewFile();
+            } else {
+                throw new IOException("File does not exist");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+//java.io.IOException: File does not exist
+        at JavaAss4.Ass3.main(Ass3.java:14)
+
+11.	Write a Java program to demonstrate NoSuchElementException.
+
+import java.util.NoSuchElementException;
+
+public class Ass3 {
+    public static void main(String[] args) {
+        try {
+            int[] arr = { 1, 2, 3, 4, 5 };
+            int element = 6;
+            if (contains(arr, element))
+                System.out.println("Element found");
+            else
+                throw new NoSuchElementException();
+        } catch (NoSuchElementException e) {
+            System.out.println("Caught NoSuchElementException");
+        }
+    }
+
+    // method to check if an array contains the element
+    public static boolean contains(int[] arr, int element) {
+        for (int i = 0; i < arr.length; i++)
+            if (arr[i] == element)
+                return true;
+
+        return false;
+    }
+}
+// Caught NoSuchElementException
+
+12.	Write a Java program to demonstrate ClassNotFoundException.
+public class Ass3 {
+    public static void main(String[] args) {
+        try {
+            Class.forName("JavaAss4.MyException.Help");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+}
+// java.lang.ClassNotFoundException: JavaAss4.MyException.Help
+
+13.	Write a Java program to demonstrate user defined exception, your program throws an exception whenever balance amount is below Rs 1000, bank details must account number, account user name and balance amount.
+
+public class Ass3 {
+
+    public static void main(String[] args) {
+        Bank bank = new Bank(1000, "Harsh", "1472583698");
+        bank.debit(500);
+        try {
+            if (bank.getBalance() < 1000)
+                throw new Exception("Insufficient balance");
+            bank.debit(1000);
+            System.out.println(bank.getUserName() + " " + bank.getAccountNumber() + " " + bank.getBalance());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+class Bank {
+    int balance;
+    String userName;
+    String accountNumber;
+
+    Bank(int balance, String userName, String accountNumber) {
+        this.balance = balance;
+        this.userName = userName;
+        this.accountNumber = accountNumber;
+    }
+
+    public int getBalance() { return balance; }
+
+    public String getAccountNumber() { return accountNumber; }
+
+    public String getUserName() { return userName; }
+
+    public void debit(int amount) { balance = balance - amount; }
+}
+
+// Harsh 1472583698 8500
+// java.lang.Exception: Insufficient balance
+        at JavaAss4.Ass3.main(Ass3.java:10)
+
+14.	Write a Java program to demonstrate control flow of try-catch-finally clause when exception occur in try block but not handled in catch block.
+public class Ass3 {
+    public static void main(String[] args) {
+        try {
+            int num = Integer.parseInt(args[0]);
+            System.out.println("Number: " + num);
+        } catch (Exception e) {
+            System.out.println("Exception: " + e);
+        }
+    }
+}
+
+// Exception: java.lang.ArrayIndexOutOfBoundsException: 0
+// Number: 96
+
+15.	Write a Java program that demonstrates the use of throw.
+public class Ass3 {
+    public static void main(String[] args) {
+        try {
+            throw new Exception("Raising Exceptions are not allowed. Please report this issue.");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+java.lang.Exception: Raising Exceptions are not allowed. Please report this issue.
+        at JavaAss4.Ass3.main(Ass3.java:7)
+
+16.	Write a Java program to illustrate throws.
+
+public class Ass3 {
+    public static void main(String[] args) throws Exception {
+        try {
+            throw new Exception("Error");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+java.lang.Exception: Error
+        at JavaAss4.Ass3.main(Ass3.java:7)
+
+17.	Write a Java program to demonstrate working of chained exceptions.
+public class Ass3 {
+    public static void main(String[] args) throws Exception {
+        try {
+            int a = 10;
+            int b = 0;
+            int c = a / b;
+        } catch (ArithmeticException e) {
+            throw new Exception("divide by zero");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+// Exception in thread "main" java.lang.Exception: divide by zero
+        at JavaAss4.Ass3.main(Ass3.java:11)
+
+18.	Write a Java Program to Illustrate Exception Handling with Method Overriding  where SuperClass doesn't declare any exception and SubClass declare Unchecked exception
+
+class SuperClass {
+    void display() {
+        System.out.println("Super Class method is invoked.");
+    }
+}
+
+class SubClass extends SuperClass {
+    @Override
+    void display() throws ArrayIndexOutOfBoundsException {
+        System.out.println("Sub Class method is invoked");
+        throw new ArrayIndexOutOfBoundsException("Unchecked Exception");
+    }
+}
+
+public class Ass3 {
+    public static void main(String[] args) {
+        SuperClass superClass = new SubClass();
+        try {
+            superClass.display();
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Exception caught: " + e.getMessage());
+        }
+    }
+}
+// Sub Class method is invoked
+Exception caught: Unchecked Exception
+
+19.	Java Program to Illustrate Exception Handling with Method Overriding Where SuperClass declares an exception and SubClass declares exceptions other than the child exception of the SuperClass declared Exception.
+
+class SuperClass {
+    void display() throws Exception {
+        System.out.println("SuperClass display method is invoked");
+    }
+}
+
+class SubClass extends SuperClass {
+    @Override
+    void display() throws NullPointerException {
+        System.out.println("SubClass display method is invoked");
+        throw new NullPointerException("SubClass Exception");
+    }
+}
+
+public class Ass3 {
+    public static void main(String[] args) {
+        SuperClass superClass = new SubClass();
+        try {
+            superClass.display();
+        } catch (Exception e) {
+            System.out.println("Exception caught: " + e.getMessage());
+        }
+    }
+}
+// SubClass display method is invoked
+Exception caught: SubClass Exception
