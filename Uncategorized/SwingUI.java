@@ -1,7 +1,9 @@
+package Uncategorized;
+
 import javax.swing.*;
 import java.awt.event.*;
 
-public class SwingExps {
+public class SwingUI {
     static JFrame frame = new JFrame("Swing UI examples");
 
     public static void main(String[] args) {
