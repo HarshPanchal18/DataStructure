@@ -153,3 +153,88 @@ public:
         return count;
     }
 };
+
+class Solution
+{
+public:
+    void solve(vector<vector<char>> &grid, vector<vector<char>> &visited, int row, int col, int delRow[], int delCol[])
+    {
+        visited[row][col] = 1;
+        for (int i = 0; i < 4; i++)
+        {
+            int newRow = row + delRow[i];
+            int newCol = col + delCol[i];
+            if (newRow < grid.size() && newCol < grid[0].size() && newRow >= 0 && newCol >= 0 && visited[newRow][newCol] == 0 && grid[newRow][newCol] == '1')
+            {
+                solve(grid, visited, newRow, newCol, delRow, delCol);
+            }
+        }
+    }
+    int numIslands(vector<vector<char>> &grid)
+    {
+        int m = grid.size();
+        int n = grid[0].size();
+        int delRow[] = {-1, 0, 1, 0};
+        int delCol[] = {0, 1, 0, -1};
+        vector<vector<char>> visited(m, vector<char>(n, 0));
+        int count = 0;
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                if (grid[i][j] == '1' && visited[i][j] == 0)
+                {
+                    solve(grid, visited, i, j, delRow, delCol);
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+};
+
+class Solution
+{
+
+public:
+    int numIslands(vector<vector<char>> &g)
+    {
+
+        int n = g.size();
+        int m = g[0].size();
+        int num = 0;
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < m; j++)
+            {
+                if (g[i][j] == '1')
+                {
+                    visit_dfs(g, i, j);
+                    num++;
+                }
+            }
+        }
+        return num;
+    }
+
+    void visit_dfs(vector<vector<char>> &g, int i, int j)
+    {
+        int n = g.size();
+        int m = g[0].size();
+        vector<int> dim_row = {0, 1, 0, -1};
+        vector<int> dim_col = {1, 0, -1, 0};
+
+        g[i][j] = '0'; // Mark the current cell as visited
+
+        for (int k = 0; k < 4; k++)
+        {
+            int new_row = i + dim_row[k];
+            int new_col = j + dim_col[k];
+
+            if (new_row >= 0 && new_row < n && new_col >= 0 && new_col < m && g[new_row][new_col] == '1')
+            {
+                visit_dfs(g, new_row, new_col); // Recursively visit the neighboring cell
+            }
+        }
+    }
+};
