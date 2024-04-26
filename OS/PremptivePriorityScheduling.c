@@ -18,7 +18,7 @@ void ganttchart(int s[], int n)
         if (i == n - 1)
             printf("|");
     }
-    
+
     printf("\n");
     for (int i = 0; i < n; i++)
         printf("---");

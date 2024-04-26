@@ -140,7 +140,7 @@ public:
         }
         return temp;
     }
-}
+};
 
 int main(void)
 {

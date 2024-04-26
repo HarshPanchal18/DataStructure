@@ -14,7 +14,7 @@ Step 7: At last after traversing the whole string if still we are left with any 
 
 import java.util.*;
 
-public class Infix2Postfix {
+public class InfixToPostfix {
 
     // Returns the precedence of the given character
     public static int precedence(char currentChar) {

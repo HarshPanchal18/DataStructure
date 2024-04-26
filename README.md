@@ -214,198 +214,198 @@
 
 <summary>C</summary>
 
-[2ndSmallestNo.c](/./Array Operations/C/2ndSmallestNo.c)
+[2ndSmallestNo.c](/./Array%20Operations/C/2ndSmallestNo.c)
 
-[ArrayRotation.c](/./Array Operations/C/ArrayRotation.c)
+[ArrayRotation.c](/./Array%20Operations/C/ArrayRotation.c)
 
-[BSTree.C](/./Array Operations/C/BSTree.C)
+[BSTree.C](/./Array%20Operations/C/BSTree.C)
 
-[ClosestNumber.c](/./Array Operations/C/ClosestNumber.c)
+[ClosestNumber.c](/./Array%20Operations/C/ClosestNumber.c)
 
-[GenerateAllPossibleComb.c](/./Array Operations/C/GenerateAllPossibleComb.c)
+[GenerateAllPossibleComb.c](/./Array%20Operations/C/GenerateAllPossibleComb.c)
 
-[ImmediateSmallerElement.c](/./Array Operations/C/ImmediateSmallerElement.c)
+[ImmediateSmallerElement.c](/./Array%20Operations/C/ImmediateSmallerElement.c)
 
-[IndexOfMaxElemInArr.c](/./Array Operations/C/IndexOfMaxElemInArr.c)
+[IndexOfMaxElemInArr.c](/./Array%20Operations/C/IndexOfMaxElemInArr.c)
 
-[Move0toTTheEnd.C](/./Array Operations/C/Move0toTTheEnd.C)
+[Move0toTTheEnd.C](/./Array%20Operations/C/Move0toTTheEnd.C)
 
-[NearestSmallestNumber.c](/./Array Operations/C/NearestSmallestNumber.c)
+[NearestSmallestNumber.c](/./Array%20Operations/C/NearestSmallestNumber.c)
 
-[PainterPartition.c](/./Array Operations/C/PainterPartition.c)
+[PainterPartition.c](/./Array%20Operations/C/PainterPartition.c)
 
-[RemoveDuplicateFromSortdeArr.c](/./Array Operations/C/RemoveDuplicateFromSortdeArr.c)
+[RemoveDuplicateFromSortdeArr.c](/./Array%20Operations/C/RemoveDuplicateFromSortdeArr.c)
 
-[ReplaceWithSumAtRight.c](/./Array Operations/C/ReplaceWithSumAtRight.c)
+[ReplaceWithSumAtRight.c](/./Array%20Operations/C/ReplaceWithSumAtRight.c)
 
-[SortedArrayToBST.c](/./Array Operations/C/SortedArrayToBST.c)
+[SortedArrayToBST.c](/./Array%20Operations/C/SortedArrayToBST.c)
 
-[StockSpan.c](/./Array Operations/C/StockSpan.c)
+[StockSpan.c](/./Array%20Operations/C/StockSpan.c)
 
-[VariadicFunction.c](/./Array Operations/C/VariadicFunction.c)
+[VariadicFunction.c](/./Array%20Operations/C/VariadicFunction.c)
 
 </details>
 
 <details>
 <summary>C++</summary>
 
-[CheckIfArrayIsSortedAndRotated.cpp](/./Array Operations/C++/CheckIfArrayIsSortedAndRotated.cpp)
+[CheckIfArrayIsSortedAndRotated.cpp](/./Array%20Operations/C++/CheckIfArrayIsSortedAndRotated.cpp)
 
-[EquivalentSubArray.cpp](/./Array Operations/C++/EquivalentSubArray.cpp)
+[EquivalentSubArray.cpp](/./Array%20Operations/C++/EquivalentSubArray.cpp)
 
-[ExistOrNotInArray.cpp](/./Array Operations/C++/ExistOrNotInArray.cpp)
+[ExistOrNotInArray.cpp](/./Array%20Operations/C++/ExistOrNotInArray.cpp)
 
-[HighestFrequency.cpp](/./Array Operations/C++/HighestFrequency.cpp)
+[HighestFrequency.cpp](/./Array%20Operations/C++/HighestFrequency.cpp)
 
-[ImmediateSmallerElement.cpp](/./Array Operations/C++/ImmediateSmallerElement.cpp)
+[ImmediateSmallerElement.cpp](/./Array%20Operations/C++/ImmediateSmallerElement.cpp)
 
-[IshanLovesChoco.cpp](/./Array Operations/C++/IshanLovesChoco.cpp)
+[IshanLovesChoco.cpp](/./Array%20Operations/C++/IshanLovesChoco.cpp)
 
-[LeftRotationBruteForce.cpp](/./Array Operations/C++/LeftRotationBruteForce.cpp)
+[LeftRotationBruteForce.cpp](/./Array%20Operations/C++/LeftRotationBruteForce.cpp)
 
-[MinimizeArray.cpp](/./Array Operations/C++/MinimizeArray.cpp)
+[MinimizeArray.cpp](/./Array%20Operations/C++/MinimizeArray.cpp)
 
-[MinimumSwaps.cpp](/./Array Operations/C++/MinimumSwaps.cpp)
+[MinimumSwaps.cpp](/./Array%20Operations/C++/MinimumSwaps.cpp)
 
-[MultiplyElementsByEach.cpp](/./Array Operations/C++/MultiplyElementsByEach.cpp)
+[MultiplyElementsByEach.cpp](/./Array%20Operations/C++/MultiplyElementsByEach.cpp)
 
-[PartitionArrToKsubArr.cpp](/./Array Operations/C++/PartitionArrToKsubArr.cpp)
+[PartitionArrToKsubArr.cpp](/./Array%20Operations/C++/PartitionArrToKsubArr.cpp)
 
-[ReplaceEven-Odd.cpp](/./Array Operations/C++/ReplaceEven-Odd.cpp)
+[ReplaceEven-Odd.cpp](/./Array%20Operations/C++/ReplaceEven-Odd.cpp)
 
-[RotateArr.cpp](/./Array Operations/C++/RotateArr.cpp)
+[RotateArr.cpp](/./Array%20Operations/C++/RotateArr.cpp)
 
-[SearchPosOfKInStr.cpp](/./Array Operations/C++/SearchPosOfKInStr.cpp)
+[SearchPosOfKInStr.cpp](/./Array%20Operations/C++/SearchPosOfKInStr.cpp)
 
-[ShuffleArray.cpp](/./Array Operations/C++/ShuffleArray.cpp)
+[ShuffleArray.cpp](/./Array%20Operations/C++/ShuffleArray.cpp)
 
-[ShuffleArray2.cpp](/./Array Operations/C++/ShuffleArray2.cpp)
+[ShuffleArray2.cpp](/./Array%20Operations/C++/ShuffleArray2.cpp)
 
-[ShuffleNegativeNumber.cpp](/./Array Operations/C++/ShuffleNegativeNumber.cpp)
+[ShuffleNegativeNumber.cpp](/./Array%20Operations/C++/ShuffleNegativeNumber.cpp)
 
-[SignOfProdSign.cpp](/./Array Operations/C++/SignOfProdSign.cpp)
+[SignOfProdSign.cpp](/./Array%20Operations/C++/SignOfProdSign.cpp)
 
-[SubArrDistinctElement.cpp](/./Array Operations/C++/SubArrDistinctElement.cpp)
+[SubArrDistinctElement.cpp](/./Array%20Operations/C++/SubArrDistinctElement.cpp)
 
-[SumOfOddLengthSubArray.cpp](/./Array Operations/C++/SumOfOddLengthSubArray.cpp)
+[SumOfOddLengthSubArray.cpp](/./Array%20Operations/C++/SumOfOddLengthSubArray.cpp)
 
 </details>
 
 <details>
 <summary>Kotlin</summary>
 
-[aVeryBigSum.kt](/./Array Operations/Kotlin/aVeryBigSum.kt)
+[aVeryBigSum.kt](/./Array%20Operations/Kotlin/aVeryBigSum.kt)
 
-[CombinationSum4.kt](/./Array Operations/Kotlin/CombinationSum4.kt)
+[CombinationSum4.kt](/./Array%20Operations/Kotlin/CombinationSum4.kt)
 
-[CompareTheTriplets.kt](/./Array Operations/Kotlin/CompareTheTriplets.kt)
+[CompareTheTriplets.kt](/./Array%20Operations/Kotlin/CompareTheTriplets.kt)
 
-[ContiguousArray.kt](/./Array Operations/Kotlin/ContiguousArray.kt)
+[ContiguousArray.kt](/./Array%20Operations/Kotlin/ContiguousArray.kt)
 
-[ConvertAnArrayInto2D.kt](/./Array Operations/Kotlin/ConvertAnArrayInto2D.kt)
+[ConvertAnArrayInto2D.kt](/./Array%20Operations/Kotlin/ConvertAnArrayInto2D.kt)
 
-[CountingBits.kt](/./Array Operations/Kotlin/CountingBits.kt)
+[CountingBits.kt](/./Array%20Operations/Kotlin/CountingBits.kt)
 
-[CountingSort1.kt](/./Array Operations/Kotlin/CountingSort1.kt)
+[CountingSort1.kt](/./Array%20Operations/Kotlin/CountingSort1.kt)
 
-[CountSubArrayWhereMaxAppearsAtleastKtimes.kt](/./Array Operations/Kotlin/CountSubArrayWhereMaxAppearsAtleastKtimes.kt)
+[CountSubArrayWhereMaxAppearsAtleastKtimes.kt](/./Array%20Operations/Kotlin/CountSubArrayWhereMaxAppearsAtleastKtimes.kt)
 
-[CountSubArrayWitkFixedBounds.kt](/./Array Operations/Kotlin/CountSubArrayWitkFixedBounds.kt)
+[CountSubArrayWitkFixedBounds.kt](/./Array%20Operations/Kotlin/CountSubArrayWitkFixedBounds.kt)
 
-[CountTheNoOfIncremovableSubarrays1.kt](/./Array Operations/Kotlin/CountTheNoOfIncremovableSubarrays1.kt)
+[CountTheNoOfIncremovableSubarrays1.kt](/./Array%20Operations/Kotlin/CountTheNoOfIncremovableSubarrays1.kt)
 
-[CreateArrayInGivenOrder.kt](/./Array Operations/Kotlin/CreateArrayInGivenOrder.kt)
+[CreateArrayInGivenOrder.kt](/./Array%20Operations/Kotlin/CreateArrayInGivenOrder.kt)
 
-[Equal.java](/./Array Operations/Kotlin/Equal.java)
+[Equal.java](/./Array%20Operations/Kotlin/Equal.java)
 
-[FindDuplicateInArray.kt](/./Array Operations/Kotlin/FindDuplicateInArray.kt)
+[FindDuplicateInArray.kt](/./Array%20Operations/Kotlin/FindDuplicateInArray.kt)
 
-[FindDuplicateNumber.kt](/./Array Operations/Kotlin/FindDuplicateNumber.kt)
+[FindDuplicateNumber.kt](/./Array%20Operations/Kotlin/FindDuplicateNumber.kt)
 
-[FindTheTownJudge.kt](/./Array Operations/Kotlin/FindTheTownJudge.kt)
+[FindTheTownJudge.kt](/./Array%20Operations/Kotlin/FindTheTownJudge.kt)
 
-[FindWordsThatCanBeFormedByString.kt](/./Array Operations/Kotlin/FindWordsThatCanBeFormedByString.kt)
+[FindWordsThatCanBeFormedByString.kt](/./Array%20Operations/Kotlin/FindWordsThatCanBeFormedByString.kt)
 
-[HouseRobber.kt](/./Array Operations/Kotlin/HouseRobber.kt)
+[HouseRobber.kt](/./Array%20Operations/Kotlin/HouseRobber.kt)
 
-[InsertInterval.kt](/./Array Operations/Kotlin/InsertInterval.kt)
+[InsertInterval.kt](/./Array%20Operations/Kotlin/InsertInterval.kt)
 
-[LengthOfLongestSubArrayWithAtmostKFreq.kt](/./Array Operations/Kotlin/LengthOfLongestSubArrayWithAtmostKFreq.kt)
+[LengthOfLongestSubArrayWithAtmostKFreq.kt](/./Array%20Operations/Kotlin/LengthOfLongestSubArrayWithAtmostKFreq.kt)
 
-[LonelyInteger.kt](/./Array Operations/Kotlin/LonelyInteger.kt)
+[LonelyInteger.kt](/./Array%20Operations/Kotlin/LonelyInteger.kt)
 
-[MajorityElement.kt](/./Array Operations/Kotlin/MajorityElement.kt)
+[MajorityElement.kt](/./Array%20Operations/Kotlin/MajorityElement.kt)
 
-[MaxMin.class](/./Array Operations/Kotlin/MaxMin.class)
+[MaxMin.class](/./Array%20Operations/Kotlin/MaxMin.class)
 
-[MaxMin.java](/./Array Operations/Kotlin/MaxMin.java)
+[MaxMin.java](/./Array%20Operations/Kotlin/MaxMin.java)
 
-[MaxProductOfTwoElements.kt](/./Array Operations/Kotlin/MaxProductOfTwoElements.kt)
+[MaxProductOfTwoElements.kt](/./Array%20Operations/Kotlin/MaxProductOfTwoElements.kt)
 
-[MiniMaxSum.kt](/./Array Operations/Kotlin/MiniMaxSum.kt)
+[MiniMaxSum.kt](/./Array%20Operations/Kotlin/MiniMaxSum.kt)
 
-[MinimumCommonValue.kt](/./Array Operations/Kotlin/MinimumCommonValue.kt)
+[MinimumCommonValue.kt](/./Array%20Operations/Kotlin/MinimumCommonValue.kt)
 
-[MinimumCost.kt](/./Array Operations/Kotlin/MinimumCost.kt)
+[MinimumCost.kt](/./Array%20Operations/Kotlin/MinimumCost.kt)
 
-[MinimumTimeToMakeBalloonColorful.kt](/./Array Operations/Kotlin/MinimumTimeToMakeBalloonColorful.kt)
+[MinimumTimeToMakeBalloonColorful.kt](/./Array%20Operations/Kotlin/MinimumTimeToMakeBalloonColorful.kt)
 
-[MinMaxPairSumInArray.kt](/./Array Operations/Kotlin/MinMaxPairSumInArray.kt)
+[MinMaxPairSumInArray.kt](/./Array%20Operations/Kotlin/MinMaxPairSumInArray.kt)
 
-[MissingNumber.kt](/./Array Operations/Kotlin/MissingNumber.kt)
+[MissingNumber.kt](/./Array%20Operations/Kotlin/MissingNumber.kt)
 
-[NextGreater.kt](/./Array Operations/Kotlin/NextGreater.kt)
+[NextGreater.kt](/./Array%20Operations/Kotlin/NextGreater.kt)
 
-[NumberOfLaserbeamInBank.kt](/./Array Operations/Kotlin/NumberOfLaserbeamInBank.kt)
+[NumberOfLaserbeamInBank.kt](/./Array%20Operations/Kotlin/NumberOfLaserbeamInBank.kt)
 
-[NumberOfStudentsUnableToEatLunch.kt](/./Array Operations/Kotlin/NumberOfStudentsUnableToEatLunch.kt)
+[NumberOfStudentsUnableToEatLunch.kt](/./Array%20Operations/Kotlin/NumberOfStudentsUnableToEatLunch.kt)
 
-[PlusMinus.kt](/./Array Operations/Kotlin/PlusMinus.kt)
+[PlusMinus.kt](/./Array%20Operations/Kotlin/PlusMinus.kt)
 
-[RearrangeElement.kt](/./Array Operations/Kotlin/RearrangeElement.kt)
+[RearrangeElement.kt](/./Array%20Operations/Kotlin/RearrangeElement.kt)
 
-[RedistributeCharsToMakeAllStringEqual.kt](/./Array Operations/Kotlin/RedistributeCharsToMakeAllStringEqual.kt)
+[RedistributeCharsToMakeAllStringEqual.kt](/./Array%20Operations/Kotlin/RedistributeCharsToMakeAllStringEqual.kt)
 
-[RemoveDuplicateFromSortedArray.kt](/./Array Operations/Kotlin/RemoveDuplicateFromSortedArray.kt)
+[RemoveDuplicateFromSortedArray.kt](/./Array%20Operations/Kotlin/RemoveDuplicateFromSortedArray.kt)
 
-[RevealsCardInIncreasingOrder.kt](/./Array Operations/Kotlin/RevealsCardInIncreasingOrder.kt)
+[RevealsCardInIncreasingOrder.kt](/./Array%20Operations/Kotlin/RevealsCardInIncreasingOrder.kt)
 
-[Search2dMatrix.kt](/./Array Operations/Kotlin/Search2dMatrix.kt)
+[Search2dMatrix.kt](/./Array%20Operations/Kotlin/Search2dMatrix.kt)
 
-[SeparateTheDigitsInArray.kt](/./Array Operations/Kotlin/SeparateTheDigitsInArray.kt)
+[SeparateTheDigitsInArray.kt](/./Array%20Operations/Kotlin/SeparateTheDigitsInArray.kt)
 
-[SetMismatch.kt](/./Array Operations/Kotlin/SetMismatch.kt)
+[SetMismatch.kt](/./Array%20Operations/Kotlin/SetMismatch.kt)
 
-[ShuffleTheArray.kt](/./Array Operations/Kotlin/ShuffleTheArray.kt)
+[ShuffleTheArray.kt](/./Array%20Operations/Kotlin/ShuffleTheArray.kt)
 
-[Staircase.kt](/./Array Operations/Kotlin/Staircase.kt)
+[Staircase.kt](/./Array%20Operations/Kotlin/Staircase.kt)
 
-[SubArrayProductLessThanK.kt](/./Array Operations/Kotlin/SubArrayProductLessThanK.kt)
+[SubArrayProductLessThanK.kt](/./Array%20Operations/Kotlin/SubArrayProductLessThanK.kt)
 
-[SubArrayWithKdiffIntegers.kt](/./Array Operations/Kotlin/SubArrayWithKdiffIntegers.kt)
+[SubArrayWithKdiffIntegers.kt](/./Array%20Operations/Kotlin/SubArrayWithKdiffIntegers.kt)
 
-[SumOnArray.kt](/./Array Operations/Kotlin/SumOnArray.kt)
+[SumOnArray.kt](/./Array%20Operations/Kotlin/SumOnArray.kt)
 
-[SuperDigit.kt](/./Array Operations/Kotlin/SuperDigit.kt)
+[SuperDigit.kt](/./Array%20Operations/Kotlin/SuperDigit.kt)
 
-[TimeNeededToBuyTickets.kt](/./Array Operations/Kotlin/TimeNeededToBuyTickets.kt)
+[TimeNeededToBuyTickets.kt](/./Array%20Operations/Kotlin/TimeNeededToBuyTickets.kt)
 
-[TrappingRainWater.kt](/./Array Operations/Kotlin/TrappingRainWater.kt)
+[TrappingRainWater.kt](/./Array%20Operations/Kotlin/TrappingRainWater.kt)
 
-[TwoSum.kt](/./Array Operations/Kotlin/TwoSum.kt)
+[TwoSum.kt](/./Array%20Operations/Kotlin/TwoSum.kt)
 
-[UniquePaths2.kt](/./Array Operations/Kotlin/UniquePaths2.kt)
+[UniquePaths2.kt](/./Array%20Operations/Kotlin/UniquePaths2.kt)
 
-[ValidPartition.kt](/./Array Operations/Kotlin/ValidPartition.kt)
+[ValidPartition.kt](/./Array%20Operations/Kotlin/ValidPartition.kt)
 
-[WaveArray.java](/./Array Operations/Kotlin/WaveArray.java)
+[WaveArray.java](/./Array%20Operations/Kotlin/WaveArray.java)
 
 </details>
 
 <details>
 <summary>Python</summary>
 
-[MajorityElement.py](/./Array Operations/Python/MajorityElement.py)
+[MajorityElement.py](/./Array%20Operations/Python/MajorityElement.py)
 
 </details>
 
@@ -473,45 +473,45 @@
 <details>
 <summary>C-C++</summary>
 
-[CircularLinkedList.c](/./Linked List/C-C++/CircularLinkedList.c)
+[CircularLinkedList.c](/./Linked%20List/C-C++/CircularLinkedList.c)
 
-[ConvertBinaryInListToInt.cpp](/./Linked List/C-C++/ConvertBinaryInListToInt.cpp)
+[ConvertBinaryInListToInt.cpp](/./Linked%20List/C-C++/ConvertBinaryInListToInt.cpp)
 
-[DeleteMiddleFromTheList.cpp](/./Linked List/C-C++/DeleteMiddleFromTheList.cpp)
+[DeleteMiddleFromTheList.cpp](/./Linked%20List/C-C++/DeleteMiddleFromTheList.cpp)
 
-[DoublyLinkedList.c](/./Linked List/C-C++/DoublyLinkedList.c)
+[DoublyLinkedList.c](/./Linked%20List/C-C++/DoublyLinkedList.c)
 
-[LinkedListCycle.cpp](/./Linked List/C-C++/LinkedListCycle.cpp)
+[LinkedListCycle.cpp](/./Linked%20List/C-C++/LinkedListCycle.cpp)
 
-[MErgeSortLinkedList.cpp](/./Linked List/C-C++/MErgeSortLinkedList.cpp)
+[MErgeSortLinkedList.cpp](/./Linked%20List/C-C++/MErgeSortLinkedList.cpp)
 
-[MergeSortLinkedList2.cpp](/./Linked List/C-C++/MergeSortLinkedList2.cpp)
+[MergeSortLinkedList2.cpp](/./Linked%20List/C-C++/MergeSortLinkedList2.cpp)
 
-[MiddleOfTheLinkedList.cpp](/./Linked List/C-C++/MiddleOfTheLinkedList.cpp)
+[MiddleOfTheLinkedList.cpp](/./Linked%20List/C-C++/MiddleOfTheLinkedList.cpp)
 
-[RemoveDuplicateFromSortedList.cpp](/./Linked List/C-C++/RemoveDuplicateFromSortedList.cpp)
+[RemoveDuplicateFromSortedList.cpp](/./Linked%20List/C-C++/RemoveDuplicateFromSortedList.cpp)
 
-[RemoveNthFromRight.cpp](/./Linked List/C-C++/RemoveNthFromRight.cpp)
+[RemoveNthFromRight.cpp](/./Linked%20List/C-C++/RemoveNthFromRight.cpp)
 
-[ReverseList.cpp](/./Linked List/C-C++/ReverseList.cpp)
+[ReverseList.cpp](/./Linked%20List/C-C++/ReverseList.cpp)
 
-[SinglyLinkedList.c](/./Linked List/C-C++/SinglyLinkedList.c)
+[SinglyLinkedList.c](/./Linked%20List/C-C++/SinglyLinkedList.c)
 
-[StackUsingLinkedList.c](/./Linked List/C-C++/StackUsingLinkedList.c)
+[StackUsingLinkedList.c](/./Linked%20List/C-C++/StackUsingLinkedList.c)
 </details>
 
 <details>
 <summary>Kotlin-Java</summary>
 
-[LinkedList.java](/./Linked List/LinkedList.java)
+[LinkedList.java](/./Linked%20List/LinkedList.java)
 
-[LinkedList2.java](/./Linked List/LinkedList2.java)
+[LinkedList2.java](/./Linked%20List/LinkedList2.java)
 
-[MergeTwoSortedList.kt](/./Linked List/MergeTwoSortedList.kt)
+[MergeTwoSortedList.kt](/./Linked%20List/MergeTwoSortedList.kt)
 
-[PalindromeLinkedList.kt](/./Linked List/PalindromeLinkedList.kt)
+[PalindromeLinkedList.kt](/./Linked%20List/PalindromeLinkedList.kt)
 
-[ReorderList.kt](/./Linked List/Kotlin-Java/ReorderList.kt)
+[ReorderList.kt](/./Linked%20List/Kotlin-Java/ReorderList.kt)
 
 </details>
 </details>
@@ -572,17 +572,17 @@
 <details>
 <summary>Memory Management And Pointers</summary>
 
-[ArithmaticPointer.CPP](/./Memory Management And Pointers/ArithmaticPointer.CPP)
+[ArithmaticPointer.CPP](/./Memory%20Management%20And%20Pointers/ArithmaticPointer.CPP)
 
-[MemSetFunc.c](/./Memory Management And Pointers/MemSetFunc.c)
+[MemSetFunc.c](/./Memory%20Management%20And%20Pointers/MemSetFunc.c)
 
-[MemSetFunc2.c](/./Memory Management And Pointers/MemSetFunc2.c)
+[MemSetFunc2.c](/./Memory%20Management%20And%20Pointers/MemSetFunc2.c)
 
-[PtrManipulation.CPP](/./Memory Management And Pointers/PtrManipulation.CPP)
+[PtrManipulation.CPP](/./Memory%20Management%20And%20Pointers/PtrManipulation.CPP)
 
-[ReAlloc() Function.C](/./Memory Management And Pointers/ReAlloc() Function.C)
+[ReAlloc() Function.C](/./Memory%20Management%20And%20Pointers/ReAlloc()%20Function.C)
 
-[StringToPointer.CPP](/./Memory Management And Pointers/StringToPointer.CPP)
+[StringToPointer.CPP](/./Memory%20Management%20And%20Pointers/StringToPointer.CPP)
 
 </details>
 
@@ -820,182 +820,184 @@
 <details>
 <summary>C</summary>
 
-[AlternatingCharacters.c](/./String Operations/C/AlternatingCharacters.c)
+[AlternatingCharacters.c](/./String%20Operations/C/AlternatingCharacters.c)
 
-[rawExtension.c](/./String Operations/C/rawExtension.c)
+[rawExtension.c](/./String%20Operations/C/rawExtension.c)
 
-[rawName.c](/./String Operations/C/rawName.c)
+[rawName.c](/./String%20Operations/C/rawName.c)
 
-[RemoveAdjacentStr.c](/./String Operations/C/RemoveAdjacentStr.c)
+[RemoveAdjacentStr.c](/./String%20Operations/C/RemoveAdjacentStr.c)
 
-[repeatLine.c](/./String Operations/C/repeatLine.c)
+[repeatLine.c](/./String%20Operations/C/repeatLine.c)
 
-[repeatNull.c](/./String Operations/C/repeatNull.c)
+[repeatNull.c](/./String%20Operations/C/repeatNull.c)
 
-[repeatStr.c](/./String Operations/C/repeatStr.c)
+[repeatStr.c](/./String%20Operations/C/repeatStr.c)
 
-[SizeOfArr.c](/./String Operations/C/SizeOfArr.c)
+[SizeOfArr.c](/./String%20Operations/C/SizeOfArr.c)
 
-[StringCompression.C](/./String Operations/C/StringCompression.C)
+[StringCompression.C](/./String%20Operations/C/StringCompression.C)
 
-[StringOperation.c](/./String Operations/C/StringOperation.c)
+[StringOperation.c](/./String%20Operations/C/StringOperation.c)
 
-[Vaidate_IP.c](/./String Operations/C/Vaidate_IP.c)
+[Vaidate_IP.c](/./String%20Operations/C/Vaidate_IP.c)
 
 </details>
 
 <details>
 <summary>C++</summary>
 
-[AhoCorasickAlgo.cpp](/./String Operations/C++/AhoCorasickAlgo.cpp)
+[AhoCorasickAlgo.cpp](/./String%20Operations/C++/AhoCorasickAlgo.cpp)
 
-[CheckStringRotation.cpp](/./String Operations/C++/CheckStringRotation.cpp)
+[CheckStringRotation.cpp](/./String%20Operations/C++/CheckStringRotation.cpp)
 
-[DecryptStringToInteger.cpp](/./String Operations/C++/DecryptStringToInteger.cpp)
+[DecryptStringToInteger.cpp](/./String%20Operations/C++/DecryptStringToInteger.cpp)
 
-[GetSubStrIndex.cpp](/./String Operations/C++/GetSubStrIndex.cpp)
+[GetSubStrIndex.cpp](/./String%20Operations/C++/GetSubStrIndex.cpp)
 
-[IndiaMap.cpp](/./String Operations/C++/IndiaMap.cpp)
+[IndiaMap.cpp](/./String%20Operations/C++/IndiaMap.cpp)
 
-[LargestNumberWithSum.cpp](/./String Operations/C++/LargestNumberWithSum.cpp)
+[LargestNumberWithSum.cpp](/./String%20Operations/C++/LargestNumberWithSum.cpp)
 
-[LengthOfLastWord.cpp](/./String Operations/C++/LengthOfLastWord.cpp)
+[LengthOfLastWord.cpp](/./String%20Operations/C++/LengthOfLastWord.cpp)
 
-[LongestPalindromeSubstr.cpp](/./String Operations/C++/LongestPalindromeSubstr.cpp)
+[LongestPalindromeSubstr.cpp](/./String%20Operations/C++/LongestPalindromeSubstr.cpp)
 
-[LongestSubStr.cpp](/./String Operations/C++/LongestSubStr.cpp)
+[LongestSubStr.cpp](/./String%20Operations/C++/LongestSubStr.cpp)
 
-[MergeStringAlternately.cpp](/./String Operations/C++/MergeStringAlternately.cpp)
+[MergeStringAlternately.cpp](/./String%20Operations/C++/MergeStringAlternately.cpp)
 
-[Pangram.cpp](/./String Operations/C++/Pangram.cpp)
+[Pangram.cpp](/./String%20Operations/C++/Pangram.cpp)
 
-[PermutationWithCaseChanging.cpp](/./String Operations/C++/PermutationWithCaseChanging.cpp)
+[PermutationWithCaseChanging.cpp](/./String%20Operations/C++/PermutationWithCaseChanging.cpp)
 
-[PermutationWithSpace.cpp](/./String Operations/C++/PermutationWithSpace.cpp)
+[PermutationWithSpace.cpp](/./String%20Operations/C++/PermutationWithSpace.cpp)
 
-[RemoveAdjacent.cpp](/./String Operations/C++/RemoveAdjacent.cpp)
+[RemoveAdjacent.cpp](/./String%20Operations/C++/RemoveAdjacent.cpp)
 
-[RemoveDuplicate.cpp](/./String Operations/C++/RemoveDuplicate.cpp)
+[RemoveDuplicate.cpp](/./String%20Operations/C++/RemoveDuplicate.cpp)
 
-[ReverseWordOrders.cpp](/./String Operations/C++/ReverseWordOrders.cpp)
+[ReverseWordOrders.cpp](/./String%20Operations/C++/ReverseWordOrders.cpp)
 
-[SpecialKeyboard.cpp](/./String Operations/C++/SpecialKeyboard.cpp)
+[SpecialKeyboard.cpp](/./String%20Operations/C++/SpecialKeyboard.cpp)
 
-[StringAddition.cpp](/./String Operations/C++/StringAddition.cpp)
+[StringAddition.cpp](/./String%20Operations/C++/StringAddition.cpp)
 
-[StringCompression.cpp](/./String Operations/C++/StringCompression.cpp)
+[StringCompression.cpp](/./String%20Operations/C++/StringCompression.cpp)
 
-[StringFactorial.cpp](/./String Operations/C++/StringFactorial.cpp)
+[StringFactorial.cpp](/./String%20Operations/C++/StringFactorial.cpp)
 
-[StringLapindrome.CPP](/./String Operations/C++/StringLapindrome.CPP)
+[StringLapindrome.CPP](/./String%20Operations/C++/StringLapindrome.CPP)
 
-[StringPermutation.cpp](/./String Operations/C++/StringPermutation.cpp)
+[StringPermutation.cpp](/./String%20Operations/C++/StringPermutation.cpp)
 
-[StringPermutation2.cpp](/./String Operations/C++/StringPermutation2.cpp)
+[StringPermutation2.cpp](/./String%20Operations/C++/StringPermutation2.cpp)
 
-[StringReverse.cpp](/./String Operations/C++/StringReverse.cpp)
+[StringReverse.cpp](/./String%20Operations/C++/StringReverse.cpp)
 
-[StringShift.cpp](/./String Operations/C++/StringShift.cpp)
-[StringSubstraction.cpp](/./String Operations/C++/StringSubstraction.cpp)
+[StringShift.cpp](/./String%20Operations/C++/StringShift.cpp)
+[StringSubstraction.cpp](/./String%20Operations/C++/StringSubstraction.cpp)
 
-[StringWindow.cpp](/./String Operations/C++/StringWindow.cpp)
+[StringWindow.cpp](/./String%20Operations/C++/StringWindow.cpp)
 
-[StuckKeyboard.cpp](/./String Operations/C++/StuckKeyboard.cpp)
+[StuckKeyboard.cpp](/./String%20Operations/C++/StuckKeyboard.cpp)
 
-[TransformString.cpp](/./String Operations/C++/TransformString.cpp)
+[TransformString.cpp](/./String%20Operations/C++/TransformString.cpp)
 
-[TwoCharacters.cpp](/./String Operations/C++/TwoCharacters.cpp)
+[TwoCharacters.cpp](/./String%20Operations/C++/TwoCharacters.cpp)
 
-[URLify.cpp](/./String Operations/C++/URLify.cpp)
+[URLify.cpp](/./String%20Operations/C++/URLify.cpp)
 
-[Vaidate_IP.cpp](/./String Operations/C++/Vaidate_IP.cpp)
+[Vaidate_IP.cpp](/./String%20Operations/C++/Vaidate_IP.cpp)
 
-[WordBreak.cpp](/./String Operations/C++/WordBreak.cpp)
+[WordBreak.cpp](/./String%20Operations/C++/WordBreak.cpp)
 
-[WordBreak2.cpp](/./String Operations/C++/WordBreak2.cpp)
+[WordBreak2.cpp](/./String%20Operations/C++/WordBreak2.cpp)
 
-[Z_SearchAlgorithm.cpp](/./String Operations/C++/Z_SearchAlgorithm.cpp)
+[Z_SearchAlgorithm.cpp](/./String%20Operations/C++/Z_SearchAlgorithm.cpp)
 
 </details>
 
 <details>
 <summary>Kotlin</summary>
 
-[CompareVersionNumber.java](/./String Operations/Kotlin/CompareVersionNumber.java)
+[CompareVersionNumber.java](/./String%20Operations/Kotlin/CompareVersionNumber.java)
 
-[CompareVersionNumber.kt](/./String Operations/Kotlin/CompareVersionNumber.kt)
+[CompareVersionNumber.kt](/./String%20Operations/Kotlin/CompareVersionNumber.kt)
 
-[CountTheVowelStringsInRange.kt](/./String Operations/Kotlin/CountTheVowelStringsInRange.kt)
+[CountTheVowelStringsInRange.kt](/./String%20Operations/Kotlin/CountTheVowelStringsInRange.kt)
 
-[CustomSortString.kt](/./String Operations/Kotlin/CustomSortString.kt)
+[CustomSortString.kt](/./String%20Operations/Kotlin/CustomSortString.kt)
 
-[DecodedAtIndex.kt](/./String Operations/Kotlin/DecodedAtIndex.kt)
+[DecodedAtIndex.kt](/./String%20Operations/Kotlin/DecodedAtIndex.kt)
 
-[DecodeWays.kt](/./String Operations/Kotlin/DecodeWays.kt)
+[DecodeWays.kt](/./String%20Operations/Kotlin/DecodeWays.kt)
 
-[DestinationCity.kt](/./String Operations/Kotlin/DestinationCity.kt)
+[DestinationCity.kt](/./String%20Operations/Kotlin/DestinationCity.kt)
 
-[Disemvowel.kt](/./String Operations/Kotlin/Disemvowel.kt)
+[Disemvowel.kt](/./String%20Operations/Kotlin/Disemvowel.kt)
 
-[FindTheDifference.kt](/./String Operations/Kotlin/FindTheDifference.kt)
+[FindTheDifference.kt](/./String%20Operations/Kotlin/FindTheDifference.kt)
 
-[FirstOccurrenceIndex.kt](/./String Operations/Kotlin/FirstOccurrenceIndex.kt)
+[FirstOccurrenceIndex.kt](/./String%20Operations/Kotlin/FirstOccurrenceIndex.kt)
 
-[GroupAnagrams.kt](/./String Operations/Kotlin/GroupAnagrams.kt)
+[GroupAnagrams.kt](/./String%20Operations/Kotlin/GroupAnagrams.kt)
 
-[IsomorphicStrings.kt](/./String Operations/Kotlin/IsomorphicStrings.kt)
+[IsomorphicStrings.kt](/./String%20Operations/Kotlin/IsomorphicStrings.kt)
 
-[IsSubSequence.kt](/./String Operations/Kotlin/IsSubSequence.kt)
+[IsSubSequence.kt](/./String%20Operations/Kotlin/IsSubSequence.kt)
 
-[LatestTimeByHiddenDigits.kt](/./String Operations/Kotlin/LatestTimeByHiddenDigits.kt)
+[LatestTimeByHiddenDigits.kt](/./String%20Operations/Kotlin/LatestTimeByHiddenDigits.kt)
 
-[LengthOfLastWord.kt](/./String Operations/Kotlin/LengthOfLastWord.kt)
+[LengthOfLastWord.kt](/./String%20Operations/Kotlin/LengthOfLastWord.kt)
 
-[LongestIdealSubsequence.kt](/./String Operations/Kotlin/LongestIdealSubsequence.kt)
+[LongestIdealSubsequence.kt](/./String%20Operations/Kotlin/LongestIdealSubsequence.kt)
 
-[LongestPalindromeLength.class](/./String Operations/Kotlin/LongestPalindromeLength.class)
+[LongestPalindromeLength.class](/./String%20Operations/Kotlin/LongestPalindromeLength.class)
 
-[LongestPalindromeLength.java](/./String Operations/Kotlin/LongestPalindromeLength.java)
+[LongestPalindromeLength.java](/./String%20Operations/Kotlin/LongestPalindromeLength.java)
 
-[LongestPalindromeLength.kt](/./String Operations/Kotlin/LongestPalindromeLength.kt)
+[LongestPalindromeLength.kt](/./String%20Operations/Kotlin/LongestPalindromeLength.kt)
 
-[LongestSubstringWoRepeatingCharacters.kt](/./String Operations/Kotlin/LongestSubstringWoRepeatingCharacters.kt)
+[LongestSubstringWoRepeatingCharacters.kt](/./String%20Operations/Kotlin/LongestSubstringWoRepeatingCharacters.kt)
 
-[LongPressedName.kt](/./String Operations/Kotlin/LongPressedName.kt)
+[LongPressedName.kt](/./String%20Operations/Kotlin/LongPressedName.kt)
 
-[MakeTheStringGreat.kt](/./String Operations/Kotlin/MakeTheStringGreat.kt)
+[MakeTheStringGreat.kt](/./String%20Operations/Kotlin/MakeTheStringGreat.kt)
 
-[MinChangesToMakeAlternatingBinaryString.kt](/./String Operations/Kotlin/MinChangesToMakeAlternatingBinaryString.kt)
+[MinChangesToMakeAlternatingBinaryString.kt](/./String%20Operations/Kotlin/MinChangesToMakeAlternatingBinaryString.kt)
 
-[MinimumRemoveToMakeValidParntheses.kt](/./String Operations/Kotlin/MinimumRemoveToMakeValidParntheses.kt)
+[MinimumRemoveToMakeValidParntheses.kt](/./String%20Operations/Kotlin/MinimumRemoveToMakeValidParntheses.kt)
 
-[PathCrossing.java](/./String Operations/Kotlin/PathCrossing.java)
+[PathCrossing.java](/./String%20Operations/Kotlin/PathCrossing.java)
 
-[PathCrossing.kt](/./String Operations/Kotlin/PathCrossing.kt)
+[PathCrossing.kt](/./String%20Operations/Kotlin/PathCrossing.kt)
 
-[PrinterErrors.kt](/./String Operations/Kotlin/PrinterErrors.kt)
+[PrinterErrors.kt](/./String%20Operations/Kotlin/PrinterErrors.kt)
 
-[RemoveKdigits.kt](/./String Operations/Kotlin/RemoveKdigits.kt)
+[RemoveKdigits.kt](/./String%20Operations/Kotlin/RemoveKdigits.kt)
 
-[RepeatedDNAsequences.kt](/./String Operations/Kotlin/RepeatedDNAsequences.kt)
+[RepeatedDNAsequences.kt](/./String%20Operations/Kotlin/RepeatedDNAsequences.kt)
 
-[RestoreIpAddresses.kt](/./String Operations/Kotlin/RestoreIpAddresses.kt)
+[RestoreIpAddresses.kt](/./String%20Operations/Kotlin/RestoreIpAddresses.kt)
 
-[ReverseWordsInString.kt](/./String Operations/Kotlin/ReverseWordsInString.kt)
+[ReverseWordsInString.kt](/./String%20Operations/Kotlin/ReverseWordsInString.kt)
 
-[ReverseWordsInString3.kt](/./String Operations/Kotlin/ReverseWordsInString3.kt)
+[ReverseWordsInString3.kt](/./String%20Operations/Kotlin/ReverseWordsInString3.kt)
 
-[SmallestStringStartingFromLeaf.kt](/./String Operations/Kotlin/SmallestStringStartingFromLeaf.kt)
+[SmallestStringStartingFromLeaf.kt](/./String%20Operations/Kotlin/SmallestStringStartingFromLeaf.kt)
 
-[TimeConversion.kt](/./String Operations/Kotlin/TimeConversion.kt)
+[TimeConversion.kt](/./String%20Operations/Kotlin/TimeConversion.kt)
 
-[ValidParenthesesString.kt](/./String Operations/Kotlin/ValidParenthesesString.kt)
+[ValidParenthesesString.kt](/./String%20Operations/Kotlin/ValidParenthesesString.kt)
 
 </details>
 
 <details>
 <summary>Python</summary>
-[Titlecase.py](/./String Operations/Python/Titlecase.py)
+
+[Titlecase.py](/./String%20Operations/Python/Titlecase.py)
+
 </details>
 
 </details>
