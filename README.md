@@ -1,7 +1,7 @@
 # DataStructure
 
 * Check 40+ Sorting Algorithms which has separated [REPO](https://github.com/HarshPanchal18/Sorting-Methods)
-* Check [Searching Algorithms] which has separated [REPO](https://github.com/HarshPanchal18/Searching-Techniques)
+* Check Searching Algorithms which has separated [REPO](https://github.com/HarshPanchal18/Searching-Techniques)
 * Check Another [REPO](https://github.com/HarshPanchal18/This-is-for-Fun) For More Algorithms
 
 <details>
@@ -439,6 +439,8 @@
 [OpenTheLock.kt](/./Graph/OpenTheLock.kt)
 
 [ShortestPath.c](/./Graph/ShortestPath.c)
+
+[SumOfDistancesInTree.kt](/./Graph/SumOfDistancesInTree.kt)
 
 [SurroundedRegions.cpp](/./Graph/SurroundedRegions.cpp)
 
@@ -896,6 +898,7 @@
 [StringReverse.cpp](/./String%20Operations/C++/StringReverse.cpp)
 
 [StringShift.cpp](/./String%20Operations/C++/StringShift.cpp)
+
 [StringSubstraction.cpp](/./String%20Operations/C++/StringSubstraction.cpp)
 
 [StringWindow.cpp](/./String%20Operations/C++/StringWindow.cpp)
