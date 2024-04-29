@@ -74,6 +74,8 @@
 
 [ExponentSeries.java](/./Algorithms/ExponentSeries.java)
 
+[FilterIntegers.kt](/./Algorithms/FilterIntegers.kt)
+
 [FindKthSmallestBiggest.C](/./Algorithms/FindKthSmallestBiggest.C)
 
 [FindMissing.C](/./Algorithms/FindMissing.C)
