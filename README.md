@@ -354,6 +354,8 @@
 
 [MinMaxPairSumInArray.kt](/./Array%20Operations/Kotlin/MinMaxPairSumInArray.kt)
 
+[MinOperationsToMakeArrayXorEqualTok.kt](/./Array%20Operations/Kotlin/MinOperationsToMakeArrayXorEqualTok.kt)
+
 [MissingNumber.kt](/./Array%20Operations/Kotlin/MissingNumber.kt)
 
 [NextGreater.kt](/./Array%20Operations/Kotlin/NextGreater.kt)
@@ -973,6 +975,8 @@
 [MinChangesToMakeAlternatingBinaryString.kt](/./String%20Operations/Kotlin/MinChangesToMakeAlternatingBinaryString.kt)
 
 [MinimumRemoveToMakeValidParntheses.kt](/./String%20Operations/Kotlin/MinimumRemoveToMakeValidParntheses.kt)
+
+[NumberOfWonderfulSubstrings.kt](/./String%20Operations/Kotlin/NumberOfWonderfulSubstrings.kt)
 
 [PathCrossing.java](/./String%20Operations/Kotlin/PathCrossing.java)
 
