@@ -992,6 +992,8 @@
 
 [RestoreIpAddresses.kt](/./String%20Operations/Kotlin/RestoreIpAddresses.kt)
 
+[ReversePrefixOfWord.kt](/./String%20Operations/Kotlin/ReversePrefixOfWord.kt)
+
 [ReverseWordsInString.kt](/./String%20Operations/Kotlin/ReverseWordsInString.kt)
 
 [ReverseWordsInString3.kt](/./String%20Operations/Kotlin/ReverseWordsInString3.kt)
