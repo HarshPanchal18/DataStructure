@@ -318,6 +318,8 @@
 
 [CreateArrayInGivenOrder.kt](/./Array%20Operations/Kotlin/CreateArrayInGivenOrder.kt)
 
+[DivideArrayIntoEqualPairs.kt](/./Array%20Operations/Kotlin/DivideArrayIntoEqualPairs.kt)
+
 [Equal.java](/./Array%20Operations/Kotlin/Equal.java)
 
 [FindDuplicateInArray.kt](/./Array%20Operations/Kotlin/FindDuplicateInArray.kt)
