@@ -298,6 +298,8 @@
 
 [aVeryBigSum.kt](/./Array%20Operations/Kotlin/aVeryBigSum.kt)
 
+[BoatsToSavePeople.kt](/./Array%20Operations/Kotlin/BoatsToSavePeople.kt)
+
 [CombinationSum4.kt](/./Array%20Operations/Kotlin/CombinationSum4.kt)
 
 [CompareTheTriplets.kt](/./Array%20Operations/Kotlin/CompareTheTriplets.kt)
