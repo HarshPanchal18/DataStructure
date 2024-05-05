@@ -523,6 +523,8 @@
 
 [PalindromeLinkedList.kt](/./Linked%20List/PalindromeLinkedList.kt)
 
+[DeleteNodeInLinkedList.kt](/./Linked%20List/Kotlin-Java/DeleteNodeInLinkedList.kt)
+
 [ReorderList.kt](/./Linked%20List/Kotlin-Java/ReorderList.kt)
 
 </details>
