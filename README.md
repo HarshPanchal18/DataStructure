@@ -525,6 +525,8 @@
 
 [DeleteNodeInLinkedList.kt](/./Linked%20List/Kotlin-Java/DeleteNodeInLinkedList.kt)
 
+[RemovesNodeFromLinkedList.kt](/./Linked%20List/Kotlin-Java/RemovesNodeFromLinkedList.kt)
+
 [ReorderList.kt](/./Linked%20List/Kotlin-Java/ReorderList.kt)
 
 </details>
