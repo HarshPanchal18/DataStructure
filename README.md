@@ -515,19 +515,21 @@
 <details>
 <summary>Kotlin-Java</summary>
 
-[LinkedList.java](/./Linked%20List/LinkedList.java)
+[LinkedList.java](/./Linked%20List/Kotlin-Java/LinkedList.java)
 
-[LinkedList2.java](/./Linked%20List/LinkedList2.java)
+[LinkedList2.java](/./Linked%20List/Kotlin-Java/LinkedList2.java)
 
-[MergeTwoSortedList.kt](/./Linked%20List/MergeTwoSortedList.kt)
+[MergeTwoSortedList.kt](/./Linked%20List/Kotlin-Java/MergeTwoSortedList.kt)
 
-[PalindromeLinkedList.kt](/./Linked%20List/PalindromeLinkedList.kt)
+[PalindromeLinkedList.kt](/./Linked%20List/Kotlin-Java/PalindromeLinkedList.kt)
 
 [DeleteNodeInLinkedList.kt](/./Linked%20List/Kotlin-Java/DeleteNodeInLinkedList.kt)
 
 [RemovesNodeFromLinkedList.kt](/./Linked%20List/Kotlin-Java/RemovesNodeFromLinkedList.kt)
 
 [ReorderList.kt](/./Linked%20List/Kotlin-Java/ReorderList.kt)
+
+[RotateList.kt](/./Linked%20List/Kotlin-Java/RotateList.kt)
 
 </details>
 </details>
