@@ -376,6 +376,8 @@
 
 [RedistributeCharsToMakeAllStringEqual.kt](/./Array%20Operations/Kotlin/RedistributeCharsToMakeAllStringEqual.kt)
 
+[RelativeRanks.kt](/./Array%20Operations/Kotlin/RelativeRanks.kt)
+
 [RemoveDuplicateFromSortedArray.kt](/./Array%20Operations/Kotlin/RemoveDuplicateFromSortedArray.kt)
 
 [RevealsCardInIncreasingOrder.kt](/./Array%20Operations/Kotlin/RevealsCardInIncreasingOrder.kt)
