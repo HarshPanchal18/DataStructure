@@ -555,6 +555,8 @@
 
 [ImageSmoother.kt](/./Matrix/ImageSmoother.kt)
 
+[LargestLocalValuesInMatrix.kt](/./Matrix/LargestLocalValuesInMatrix.kt)
+
 [MagicSquare.c](/./Matrix/MagicSquare.c)
 
 [MatrixRotation.cpp](/./Matrix/MatrixRotation.cpp)
