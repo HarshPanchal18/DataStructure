@@ -1050,6 +1050,8 @@
 
 [BinaryTree.cpp](/./Tree/BinaryTree.cpp)
 
+[EvaluateBooleanBinaryTree.kt](/./Tree/EvaluateBooleanBinaryTree.kt)
+
 [FindingProfession.cpp](/./Tree/FindingProfession.cpp)
 
 [LeafSimilarTree.kt](/./Tree/LeafSimilarTree.kt)
