@@ -384,6 +384,8 @@
 
 [RemoveDuplicateFromSortedArray.kt](/./Array%20Operations/Kotlin/RemoveDuplicateFromSortedArray.kt)
 
+[RemoveElement.kt](/./Array%20Operations/Kotlin/RemoveElement.kt)
+
 [RevealsCardInIncreasingOrder.kt](/./Array%20Operations/Kotlin/RevealsCardInIncreasingOrder.kt)
 
 [Search2dMatrix.kt](/./Array%20Operations/Kotlin/Search2dMatrix.kt)
@@ -1049,6 +1051,8 @@
 [BinaryTree.c](/./Tree/BinaryTree.c)
 
 [BinaryTree.cpp](/./Tree/BinaryTree.cpp)
+
+[DeleteLeavesWithGivenValue.kt](/./Tree/DeleteLeavesWithGivenValue.kt)
 
 [EvaluateBooleanBinaryTree.kt](/./Tree/EvaluateBooleanBinaryTree.kt)
 
