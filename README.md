@@ -1000,6 +1000,8 @@
 
 [NumberOfWonderfulSubstrings.kt](/./String%20Operations/Kotlin/NumberOfWonderfulSubstrings.kt)
 
+[](/./String%20Operations/Kotlin/PalindromePartitioning.kt)
+
 [PathCrossing.java](/./String%20Operations/Kotlin/PathCrossing.java)
 
 [PathCrossing.kt](/./String%20Operations/Kotlin/PathCrossing.kt)
