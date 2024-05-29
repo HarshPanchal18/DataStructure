@@ -402,6 +402,8 @@
 
 [SubArrayWithKdiffIntegers.kt](/./Array%20Operations/Kotlin/SubArrayWithKdiffIntegers.kt)
 
+[Subsets.kt](/./Array%20Operations/Kotlin/Subsets.kt)
+
 [SumOnArray.kt](/./Array%20Operations/Kotlin/SumOnArray.kt)
 
 [SuperDigit.kt](/./Array%20Operations/Kotlin/SuperDigit.kt)
@@ -1000,7 +1002,7 @@
 
 [NumberOfWonderfulSubstrings.kt](/./String%20Operations/Kotlin/NumberOfWonderfulSubstrings.kt)
 
-[](/./String%20Operations/Kotlin/PalindromePartitioning.kt)
+[PalindromePartitioning.kt](/./String%20Operations/Kotlin/PalindromePartitioning.kt)
 
 [PathCrossing.java](/./String%20Operations/Kotlin/PathCrossing.java)
 
