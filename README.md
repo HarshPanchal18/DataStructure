@@ -1022,6 +1022,8 @@
 
 [ReverseWordsInString3.kt](/./String%20Operations/Kotlin/ReverseWordsInString3.kt)
 
+[ScoreOfString.kt](/./String%20Operations/Kotlin/ScoreOfString.kt)
+
 [SmallestStringStartingFromLeaf.kt](/./String%20Operations/Kotlin/SmallestStringStartingFromLeaf.kt)
 
 [TimeConversion.kt](/./String%20Operations/Kotlin/TimeConversion.kt)
