@@ -374,6 +374,8 @@
 
 [PlusMinus.kt](/./Array%20Operations/Kotlin/PlusMinus.kt)
 
+[PlusOne.kt](/./Array%20Operations/Kotlin/PlusOne.kt)
+
 [ProductOfArrayExceptSelf.kt](/./Array%20Operations/Kotlin/ProductOfArrayExceptSelf.kt)
 
 [RearrangeElement.kt](/./Array%20Operations/Kotlin/RearrangeElement.kt)
