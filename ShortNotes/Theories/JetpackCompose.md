@@ -111,3 +111,101 @@ You should not use `derivedStateOf` for state variables that:
 `derivedStateOf` is a powerful function that allows you to create state variables that are derived from other state variables. It is important to use `derivedStateOf` correctly, and to only create derived state variables that are needed.
 
 [Back on index](#index)
+
+## Why we have to declare properties of viewModels like the following?
+
+```kotlin
+// SettingsViewModel.kt
+
+private var _colorScheme =
+    MutableStateFlow<Theme?>(Theme.Dark)
+val colorScheme =_colorScheme.asStateFlow()
+```
+
+In the context of `MVC (Model-View-Controller) architecture`, a view model serves as an intermediary between the controller (which handles user input and application logic) and the view (which displays data to the user). Let’s break down why we declare properties in view models like the example you provided:
+
+[Back on index](#index)
+
+## Purpose of View Models
+
+A view model represents the data that you want to display on your view or page. It acts as a model specifically designed for a particular view.
+Unlike domain models (which represent the underlying data structure of your application), view models are tailored to the needs of the UI.
+View models contain only the data (represented by properties) required for rendering in the view.
+
+### Example Scenario
+
+- Imagine you’re building an application where users can customize their color scheme (e.g., light mode or dark mode).
+- You have a Theme enum with values like Theme.Light and Theme.Dark.
+- Your domain model might include additional properties related to an employee (e.g., ID, first name, last name, date created).
+- However, when displaying the color scheme settings, you don’t need all the employee-related properties.
+- In this case, you create a view model specifically for the color scheme settings.
+
+### Creating the View Model
+
+In your example, the `SettingsViewModel.kt` file defines a view model for color scheme settings.
+
+The `_colorScheme` property is a `private mutable state flow` that holds the selected theme (either light or dark).
+The `colorScheme` property <u>exposes the_colorScheme as an immutable state flow (using asStateFlow()).</u>
+
+By doing this, you encapsulate the color scheme logic within the view model.
+
+### Why Use a View Model?
+
+- Separation of concerns: View models allow you to separate UI-related concerns from your domain model.
+- Tailored data: View models provide only the necessary data for a specific view, avoiding unnecessary clutter.
+- Flexibility: You can transform or aggregate data from different sources into a format suitable for rendering.
+- Testability: View models are easier to test because they focus on specific UI requirements.
+
+In summary, view models help bridge the gap between the controller and the view, ensuring that the UI displays the relevant data without exposing unnecessary details from the domain model.
+
+### Why I shouldn't expose mutableState directly? Why should I write like following
+
+```kotlin
+// SettingsViewModel.kt
+
+private var _colorScheme =
+    MutableStateFlow<Theme?>(Theme.Dark)
+val colorScheme =_colorScheme.asStateFlow()
+```
+
+`MutableState:`
+
+- Purpose: MutableState is specifically designed for Jetpack Compose. It allows you to read and write values in a way that Compose can automatically track changes to that value.
+- Usage: You use MutableState within composables (UI components) to manage local state. When the value of a MutableState changes, Compose automatically recomposes the relevant parts of the UI that depend on that state.
+
+Example:
+
+```kotlin
+val count = mutableStateOf(0)
+val currentCount = count.value // Read the value
+count.value = currentCount + 1 // Update the value
+```
+
+`MutableStateFlow:`
+
+- Purpose: MutableStateFlow is a more general-purpose reactive state holder. It’s meant to be used outside of composables, such as in ViewModels.
+- Behavior: Unlike MutableState, MutableStateFlow does not automatically trigger recomposition. Instead, it provides a flow of values that you can observe and react to.
+
+Example:
+
+```kotlin
+private val _colorScheme = MutableStateFlow<Theme?>(Theme.Dark)
+val colorScheme =_colorScheme.asStateFlow()
+// Read the value
+val currentColorScheme = colorScheme.value
+// Update the value
+_colorScheme.value = Theme.Light
+AI-generated code. Review and use carefully. More info on FAQ.
+```
+
+`When to Use Which:`
+
+- Use `MutableState` when managing UI state within composables. It’s efficient and integrates seamlessly with Compose.
+
+- Use `MutableStateFlow` when working with ViewModel state or other non-UI logic. It provides more flexibility and allows you to perform additional operations (e.g., mapping, filtering) on the state flow.
+
+- **Note:** If you expose a MutableState directly from a ViewModel, it might lead to *`unintended recompositions in your UI`*. By using `MutableStateFlow` and exposing it as a read-only StateFlow, you avoid this issue.
+
+- In summary, choose MutableState for UI-related state within composables, and use MutableStateFlow for broader state management, especially in ViewModels. The latter provides more control and flexibility while avoiding unnecessary recompositions.
+
+[Back on index](#index)
