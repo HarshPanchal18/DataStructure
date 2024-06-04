@@ -725,6 +725,8 @@
 
 [Communication.md](/./ShortNotes/InterviewQuestions/Communication.md)
 
+[Java.md](/./ShortNotes/InterviewQuestions/Java.md)
+
 [RoomDatabase.md](/./ShortNotes/InterviewQuestions/RoomDatabase.md)
 
 </details>
