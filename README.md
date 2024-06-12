@@ -400,6 +400,8 @@
 
 [ShuffleTheArray.kt](/./Array%20Operations/Kotlin/ShuffleTheArray.kt)
 
+[SortColors.kt](/./Array%20Operations/Kotlin/SortColors.kt)
+
 [Staircase.kt](/./Array%20Operations/Kotlin/Staircase.kt)
 
 [SubArrayProductLessThanK.kt](/./Array%20Operations/Kotlin/SubArrayProductLessThanK.kt)
@@ -727,7 +729,7 @@
 
 [Communication.md](/./ShortNotes/InterviewQuestions/Communication.md)
 
-[](/./ShortNotes/InterviewQuestions/Git.md)
+[Git.md](/./ShortNotes/InterviewQuestions/Git.md)
 
 [Java.md](/./ShortNotes/InterviewQuestions/Java.md)
 
