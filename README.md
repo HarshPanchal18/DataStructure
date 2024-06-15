@@ -1048,6 +1048,8 @@
 
 [Wordle.kt](/./String%20Operations/Kotlin/Wordle.kt)
 
+[WordPattern.kt](/./String%20Operations/Kotlin/WordPattern.kt)
+
 </details>
 
 <details>
