@@ -186,6 +186,8 @@
 
 [SubsetsWithDup.cpp](/./Algorithms/SubsetsWithDup.cpp)
 
+[SumOfSquareNumbers.kt](/./Algorithms/SumOfSquareNumbers.kt)
+
 [SumZero.kt](/./Algorithms/SumZero.kt)
 
 [SumZero.py](/./Algorithms/SumZero.py)
