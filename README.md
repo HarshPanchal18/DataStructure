@@ -340,6 +340,8 @@
 
 [InsertInterval.kt](/./Array%20Operations/Kotlin/InsertInterval.kt)
 
+[IntersectionOfTwoArrays.kt](/./Array%20Operations/Kotlin/IntersectionOfTwoArrays.kt)
+
 [LargestPositiveIntThatExistsWithItsNegative.kt](/./Array%20Operations/Kotlin/LargestPositiveIntThatExistsWithItsNegative.kt)
 
 [LengthOfLongestSubArrayWithAtmostKFreq.kt](/./Array%20Operations/Kotlin/LengthOfLongestSubArrayWithAtmostKFreq.kt)
