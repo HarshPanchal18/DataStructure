@@ -779,6 +779,8 @@
 
 [CombineTwoTables.md](/./SQL/CombineTwoTables.md)
 
+[ConsecutiveNumbers.md](/./SQL/ConsecutiveNumbers.md)
+
 [CustomerPlacingTheLargestNoOfOrders.md](/./SQL/CustomerPlacingTheLargestNoOfOrders.md)
 
 [CustomersWhoNeverOrder.md](/./SQL/CustomersWhoNeverOrder.md)
