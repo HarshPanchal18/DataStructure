@@ -300,6 +300,8 @@
 
 [aVeryBigSum.kt](/./Array%20Operations/Kotlin/aVeryBigSum.kt)
 
+[BeautifulArrangement2.kt](/./Array%20Operations/Kotlin/BeautifulArrangement2.kt)
+
 [BoatsToSavePeople.kt](/./Array%20Operations/Kotlin/BoatsToSavePeople.kt)
 
 [CombinationSum4.kt](/./Array%20Operations/Kotlin/CombinationSum4.kt)
