@@ -408,6 +408,8 @@
 
 [Staircase.kt](/./Array%20Operations/Kotlin/Staircase.kt)
 
+[StoneGame.kt](/./Array%20Operations/Kotlin/StoneGame.kt)
+
 [SubArrayProductLessThanK.kt](/./Array%20Operations/Kotlin/SubArrayProductLessThanK.kt)
 
 [SubArrayWithKdiffIntegers.kt](/./Array%20Operations/Kotlin/SubArrayWithKdiffIntegers.kt)
