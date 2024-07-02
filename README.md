@@ -344,6 +344,8 @@
 
 [IntersectionOfTwoArrays.kt](/./Array%20Operations/Kotlin/IntersectionOfTwoArrays.kt)
 
+[IntersectionOfTwoArrays2.kt](/./Array%20Operations/Kotlin/IntersectionOfTwoArrays2.kt)
+
 [LargestPositiveIntThatExistsWithItsNegative.kt](/./Array%20Operations/Kotlin/LargestPositiveIntThatExistsWithItsNegative.kt)
 
 [LengthOfLongestSubArrayWithAtmostKFreq.kt](/./Array%20Operations/Kotlin/LengthOfLongestSubArrayWithAtmostKFreq.kt)
