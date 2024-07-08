@@ -994,6 +994,8 @@
 
 [FindTheDifference.kt](/./String%20Operations/Kotlin/FindTheDifference.kt)
 
+[FindTheEncryptedString.kt](/./String%20Operations/Kotlin/FindTheEncryptedString.kt)
+
 [FirstOccurrenceIndex.kt](/./String%20Operations/Kotlin/FirstOccurrenceIndex.kt)
 
 [GroupAnagrams.kt](/./String%20Operations/Kotlin/GroupAnagrams.kt)
