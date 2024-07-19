@@ -579,6 +579,8 @@
 
 [LargestLocalValuesInMatrix.kt](/./Matrix/LargestLocalValuesInMatrix.kt)
 
+[LuckyNumbersInMatrix.kt](/./Matrix/LuckyNumbersInMatrix.kt)
+
 [MagicSquare.c](/./Matrix/MagicSquare.c)
 
 [MatrixRotation.cpp](/./Matrix/MatrixRotation.cpp)
