@@ -575,6 +575,8 @@
 
 [FindStringInMatrix.c](/./Matrix/FindStringInMatrix.c)
 
+[FindValidMatrixGivenRowAndColumnSums.kt](/./Matrix/FindValidMatrixGivenRowAndColumnSums.kt)
+
 [ImageSmoother.kt](/./Matrix/ImageSmoother.kt)
 
 [LargestLocalValuesInMatrix.kt](/./Matrix/LargestLocalValuesInMatrix.kt)
