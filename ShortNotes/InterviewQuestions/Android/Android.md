@@ -459,7 +459,7 @@ val radius = 5 // Value known at runtime
 
 In essence, const is specifically for compile-time constants with stricter rules, whereas val is for declaring immutable variables whose values are known at runtime.
 
-#### What is the difference between ?. and
+### What is the difference between ?. and
 
 In Kotlin, ?. and !! are operators used to deal with potentially nullable values, but they behave quite differently:
 
@@ -490,7 +490,7 @@ val length = str!!.length // Assumes 'str' is not null, can throw NPE if 'str' i
 * Use !! when you, as the developer, are confident that a nullable variable isn’t null at a particular point in your code and you want to proceed, explicitly indicating to the compiler that you acknowledge the risk of a potential null pointer exception. However, use it sparingly as it bypasses null safety checks and can lead to runtime crashes if misused.
 * In general, it’s recommended to prefer the safe call operator ?. and utilize null safety features in Kotlin to avoid null pointer exceptions rather than resorting to the not-null assertion operator !!, which can introduce risks into your code if used without due caution.
 
-#### How to define static functions in Kotlin?
+### How to define static functions in Kotlin?
 
 In Kotlin, you can create functions that behave like static functions in other languages by defining them as top-level functions or within companion objects. Here are two ways to define static functions:
 
@@ -527,7 +527,7 @@ myStaticFunction()
 
 Both approaches allow you to create functions that behave similarly to static functions in other languages, providing reusable logic that can be accessed without the need for an instance of a class.
 
-#### What are Data Classes in Kotlin?
+### What are Data Classes in Kotlin?
 
 In Kotlin, data classes are a concise way to declare classes that are primarily used to hold data. They’re designed to automatically provide several functionalities, reducing boilerplate code typically required for classes that are meant to only hold data.
 
@@ -792,6 +792,167 @@ PART 4 — System Design
 * Design Uber/Ola.
 * Design Twitter.
 * Design Bookmyshow.
+
+### What are Coroutines?
+
+Coroutines are a powerful feature in Kotlin that allow developers to write `asynchronous and non-blocking code` in a concise and readable manner.
+
+They are based on suspending functions, which can be paused and resumed at a later time, enabling other code to execute in the meantime.
+
+Coroutines help keep the user interface responsive by ensuring that `long-running or memory-intensive` operations don’t block the main thread of execution.
+
+#### How are Coroutines different from Threads?
+
+Coroutines are `lightweight` threads. Unlike raw threads, multiple coroutines can be scheduled to execute on the same thread.
+
+Creating 100,000 coroutines doesn’t necessarily mean creating 100,000 threads because coroutines share resources within a single thread.
+
+This makes coroutines more efficient and lightweight compared to raw threads.
+
+#### What problems do Coroutines solve?
+
+`Elimination of Callback Hell`: Coroutines simplify writing asynchronous code by avoiding nested callback functions.
+Callback hell occurs when callback functions are deeply nested, making the code hard to read and debug.
+
+`Exception Handling and Cancellation`: Coroutines provide methods for propagating and handling exceptions.
+They allow defining cancellation behavior, making concurrent code safer.
+
+`Sequential Execution`: Each operation within a coroutine executes sequentially, making concurrent code easier to read and debug.
+
+### What are Kotlin Flows?
+
+Kotlin Flows are a reactive stream library for asynchronous data streams.
+
+They emit multiple values over time, similar to RxJava Observables or LiveData.
+
+Flows are designed to `handle asynchronous data` in a more flexible and composable way, especially in Android applications.
+
+#### Creating a flow
+
+You can create a Flow using the `flow { ... }` builder.
+
+Inside the `flow { ... }` block, you can emit values using the `emit()` function.
+
+For example:
+
+```Kotlin
+fun simple(): Flow<Int> = flow {
+    for (i in 1..3) {
+        delay(100) // Pretend we are doing something useful here
+        emit(i) // Emit next value
+    }
+}
+```
+
+#### Collecting values from a flow
+
+To collect values from a Flow, use the `collect { ... }` function.
+It’s similar to iterating over a list, but it works `asynchronously`.
+
+For example:
+
+```Kotlin
+runBlocking {
+    simple().collect { value ->
+        println(value)
+    }
+}
+```
+
+#### When to choose flows while development?
+
+Choosing Kotlin Flows in your Android development depends on the specific use case and requirements. Here are some scenarios where using Flows is beneficial:
+
+1. Asynchronous Data Streams:
+Use Flows when you need to handle asynchronous data streams, such as network requests, database queries, or sensor data.
+Flows allow you to emit multiple values over time, making them suitable for real-time updates and continuous data flow.
+
+2. Reactive UI Updates:
+When updating UI components based on data changes, Flows provide a more elegant solution than callbacks or LiveData.
+Flows are `lifecycle-aware` and can be collected within an Android `ViewModel`, ensuring that UI updates are handled appropriately.
+
+3. Composability and Transformation:
+Flows support various operators (e.g., map, filter, transform, etc.) for transforming and combining data streams.
+You can compose Flows easily, creating complex data pipelines without nested callbacks.
+
+4. Backpressure Handling:
+Flows handle `backpressure` (when the producer emits data faster than the consumer can process) efficiently.
+You can use operators like `buffer, conflate, or collectLatest` to manage backpressure.
+
+5. Integration with Coroutines:
+Since Flows are built on top of coroutines, they seamlessly integrate with other coroutine-based code.
+You can use `flowOn` to switch the context/thread where the Flow emits values.
+
+6. Testing and Mocking:
+Flows are easy to test because they are cold streams. You can control when they start emitting values.
+You can mock Flows for unit testing by providing predefined values.
+Remember that while Flows offer many advantages, they might not be necessary for every situation.
+
+* If you’re dealing with simple one-shot operations or don’t need reactive behavior, consider using regular suspending functions.
+
+#### How do I handle exceptions in a Flow?
+
+In Kotlin, you can handle exceptions that occur during the emission or processing of flow elements using the `catch` operator. Let me explain how it works:
+
+The catch Operator: It allows you to specify a block of code that is executed when an exception is thrown during the processing of a Flow.
+
+It simplifies error handling by encapsulating the error-handling logic in one place.
+
+Example Usage:
+
+```Kotlin
+flow {
+    emit(apiService.fetchData()) // Emit data from the API
+}.catch { e ->
+    // Handle the exception here
+    emitErrorState(e) // Emit an error state to the Flow
+}
+```
+
+In this example, if an exception occurs during the data retrieval (e.g., network error), the catch block handles it and emits an error state.
+
+### What is sealed class in Kotlin?
+
+Sealed class provides a hierarchy of classes that can be used to restrict choices at compile time.
+It means that no other classes can be made once compiled.
+
+```kotlin
+sealed class UiStates(var state: String) {
+    class Loading: UiState("Loading")
+    class Failure: UiState("Failure")
+    class Success: UiState("Success")
+}
+```
+
+In this example, the hierarchy of classes is fixed. It means no other classes can come under UiStates other than Loading, Success and Failure. We can use this specific class to spot changes in the API calling.
+
+Enum Classes: Enum classes also provide a restricted hierarchy of classes. So, what is the difference between the two and when to choose which?
+Sealed classes allow many customizations like the hierarchy of data classes, objects and classes
+It means that Sealed classes provide more customization as compared to Enum Classes
+More customization, use Sealed classes
+Restrict hierarchy, use Enum Classes
+
+Let's take an example of Enum Classes:
+
+```kotlin
+enum class UiStates(var state: String) {
+    Loading("Loading")
+    Failure("Failure")
+    Success("Success")
+}
+```
+
+Let's try to use Sealed classes with When Statement:
+
+```kotlin
+fun stateUi(uiState: UiStates) {
+    when(uiState) {
+        is uiState.Loading -> println("Loading")
+        is uiState.Failure -> println("Failure")
+        is uiState.Success -> println("Success")
+    }
+}
+```
 
 ## Essential Interview Questions on Testing for Android Developers
 
