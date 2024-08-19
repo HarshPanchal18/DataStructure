@@ -196,6 +196,8 @@
 
 [TowerBreakers.kt](/./Algorithms/TowerBreakers.kt)
 
+[TwoKeysKeyboard.kt](/./Algorithms/TwoKeysKeyboard.kt)
+
 [UglyNumber2.kt](/./Algorithms/UglyNumber2.kt)
 
 [ValidBrackets.cpp](/./Algorithms/ValidBrackets.cpp)
