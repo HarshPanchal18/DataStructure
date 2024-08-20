@@ -308,6 +308,8 @@
 
 [BeautifulArrangement2.kt](/./Array%20Operations/Kotlin/BeautifulArrangement2.kt)
 
+[BestSightSeeingPair.kt](/./Array%20Operations/Kotlin/BestSightSeeingPair.kt)
+
 [BoatsToSavePeople.kt](/./Array%20Operations/Kotlin/BoatsToSavePeople.kt)
 
 [CombinationSum4.kt](/./Array%20Operations/Kotlin/CombinationSum4.kt)
