@@ -132,6 +132,8 @@
 
 [NthTribonacciNumber.kt](/./Algorithms/NthTribonacciNumber.kt)
 
+[NumberComplement.kt](/./Algorithms/NumberComplement.kt)
+
 [NumberOfBits1.cpp](/./Algorithms/NumberOfBits1.cpp)
 
 [NumberOfDiceRollWithTargetSum.kt](/./Algorithms/NumberOfDiceRollWithTargetSum.kt)
