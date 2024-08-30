@@ -1036,6 +1036,8 @@
 
 [LongestSubstringWoRepeatingCharacters.kt](/./String%20Operations/Kotlin/LongestSubstringWoRepeatingCharacters.kt)
 
+[LongestUncommonSubsequences1.kt](/./String%20Operations/Kotlin/LongestUncommonSubsequences1.kt)
+
 [LongPressedName.kt](/./String%20Operations/Kotlin/LongPressedName.kt)
 
 [MakeTheStringGreat.kt](/./String%20Operations/Kotlin/MakeTheStringGreat.kt)
