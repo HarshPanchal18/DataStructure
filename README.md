@@ -1044,6 +1044,8 @@
 
 [MinimumRemoveToMakeValidParntheses.kt](/./String%20Operations/Kotlin/MinimumRemoveToMakeValidParntheses.kt)
 
+[MultiplyStrings.kt](/./String%20Operations/Kotlin/MultiplyStrings.kt)
+
 [NumberOfWonderfulSubstrings.kt](/./String%20Operations/Kotlin/NumberOfWonderfulSubstrings.kt)
 
 [PalindromePartitioning.kt](/./String%20Operations/Kotlin/PalindromePartitioning.kt)
