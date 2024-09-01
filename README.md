@@ -322,6 +322,8 @@
 
 [ContinuousSubarraySum.kt](/./Array%20Operations/Kotlin/ContinuousSubarraySum.kt)
 
+[Convert1DArrayInto2DArray.kt](/./Array%20Operations/Kotlin/Convert1DArrayInto2DArray.kt)
+
 [ConvertAnArrayInto2D.kt](/./Array%20Operations/Kotlin/ConvertAnArrayInto2D.kt)
 
 [CountingBits.kt](/./Array%20Operations/Kotlin/CountingBits.kt)
