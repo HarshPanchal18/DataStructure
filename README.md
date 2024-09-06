@@ -933,6 +933,8 @@
 
 [LengthOfLastWord.cpp](/./String%20Operations/C++/LengthOfLastWord.cpp)
 
+[LongestCommonPrefix.kt](/./String%20Operations/Kotlin/LongestCommonPrefix.kt)
+
 [LongestPalindromeSubstr.cpp](/./String%20Operations/C++/LongestPalindromeSubstr.cpp)
 
 [LongestSubStr.cpp](/./String%20Operations/C++/LongestSubStr.cpp)
