@@ -837,6 +837,8 @@
 
 [PatientsWithCondition.md](/./SQL/PatientsWithCondition.md)
 
+[ProductSalesAnalysis1.md](/./SQL/ProductSalesAnalysis1.md)
+
 [RearrangeProductTable.md](/./SQL/RearrangeProductTable.md)
 
 [RecycleableAndLowFatProducts.md](/./SQL/RecycleableAndLowFatProducts.md)
