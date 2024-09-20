@@ -1078,6 +1078,8 @@
 
 [ScoreOfString.kt](/./String%20Operations/Kotlin/ScoreOfString.kt)
 
+[ShortestPalindrome.kt](/./String%20Operations/Kotlin/ShortestPalindrome.kt)
+
 [SmallestStringStartingFromLeaf.kt](/./String%20Operations/Kotlin/SmallestStringStartingFromLeaf.kt)
 
 [TimeConversion.kt](/./String%20Operations/Kotlin/TimeConversion.kt)
