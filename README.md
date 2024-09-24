@@ -112,6 +112,8 @@
 
 [LargestRectangleUnderHistogram.cpp](/./Algorithms/LargestRectangleUnderHistogram.cpp)
 
+[MaximumAchievableNumber.kt](/./Algorithms/MaximumAchievableNumber.kt)
+
 [MaximumWaterContainer.c](/./Algorithms/MaximumWaterContainer.c)
 
 [MinimizeTheMaxDifference.kt](/./Algorithms/MinimizeTheMaxDifference.kt)
