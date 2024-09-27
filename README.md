@@ -376,6 +376,8 @@
 
 [MaxProductOfTwoElements.kt](/./Array%20Operations/Kotlin/MaxProductOfTwoElements.kt)
 
+[MergeIntervals.kt](/./Array%20Operations/Kotlin/MergeIntervals.kt)
+
 [MiniMaxSum.kt](/./Array%20Operations/Kotlin/MiniMaxSum.kt)
 
 [MinimumCommonValue.kt](/./Array%20Operations/Kotlin/MinimumCommonValue.kt)
