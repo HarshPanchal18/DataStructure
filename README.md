@@ -316,6 +316,8 @@
 
 [BoatsToSavePeople.kt](/./Array%20Operations/Kotlin/BoatsToSavePeople.kt)
 
+[CheckIfArrayPairsAreDivisibleByK.kt](/./Array%20Operations/Kotlin/CheckIfArrayPairsAreDivisibleByK.kt)
+
 [CombinationSum4.kt](/./Array%20Operations/Kotlin/CombinationSum4.kt)
 
 [CompareTheTriplets.kt](/./Array%20Operations/Kotlin/CompareTheTriplets.kt)
