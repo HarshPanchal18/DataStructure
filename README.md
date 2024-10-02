@@ -370,6 +370,8 @@
 
 [MajorityElement.kt](/./Array%20Operations/Kotlin/MajorityElement.kt)
 
+[MakeSumDivisibleByP.kt](/./Array%20Operations/Kotlin/MakeSumDivisibleByP.kt)
+
 [MaximizeHappinessOfSelectedChildren.kt](/./Array%20Operations/Kotlin/MaximizeHappinessOfSelectedChildren.kt)
 
 [MaxMin.class](/./Array%20Operations/Kotlin/MaxMin.class)
