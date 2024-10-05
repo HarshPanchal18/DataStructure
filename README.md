@@ -957,6 +957,8 @@
 
 [Pangram.cpp](/./String%20Operations/C++/Pangram.cpp)
 
+[PermutationInString.cpp](/./String%20Operations/C++/PermutationInString.cpp)
+
 [PermutationWithCaseChanging.cpp](/./String%20Operations/C++/PermutationWithCaseChanging.cpp)
 
 [PermutationWithSpace.cpp](/./String%20Operations/C++/PermutationWithSpace.cpp)
@@ -1073,6 +1075,8 @@
 [PathCrossing.java](/./String%20Operations/Kotlin/PathCrossing.java)
 
 [PathCrossing.kt](/./String%20Operations/Kotlin/PathCrossing.kt)
+
+[PermutationInString.kt](/./String%20Operations/Kotlin/PermutationInString.kt)
 
 [PrinterErrors.kt](/./String%20Operations/Kotlin/PrinterErrors.kt)
 
