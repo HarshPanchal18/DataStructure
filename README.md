@@ -56,6 +56,8 @@
 
 [DatabaseFitting.java](/./Algorithms/DatabaseFitting.java)
 
+[DayOfTheWeek.kt](/./Algorithms/DayOfTheWeek.kt)
+
 [DiamondPattern.cpp](/./Algorithms/DiamondPattern.cpp)
 
 [DoubleModularExponentiation.kt](/./Algorithms/DoubleModularExponentation.kt)
