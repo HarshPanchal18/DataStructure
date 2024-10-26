@@ -352,6 +352,8 @@
 
 [FindDuplicateNumber.kt](/./Array%20Operations/Kotlin/FindDuplicateNumber.kt)
 
+[FindIfDigitGameCanBeWon.kt](/./Array%20Operations/Kotlin/FindIfDigitGameCanBeWon.kt)
+
 [FindTheTownJudge.kt](/./Array%20Operations/Kotlin/FindTheTownJudge.kt)
 
 [FindWordsThatCanBeFormedByString.kt](/./Array%20Operations/Kotlin/FindWordsThatCanBeFormedByString.kt)
