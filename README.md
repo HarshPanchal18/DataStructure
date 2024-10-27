@@ -591,6 +591,8 @@
 
 [ClockwiseSpiral.C](/./Matrix/ClockwiseSpiral.C)
 
+[CountSquareSubmatricesWithAllOnes.kt](/./Matrix/CountSquareSubmatricesWithAllOnes.kt)
+
 [DiagonalDifference.c](/./Matrix/DiagonalDifference.c)
 
 [DiagonalSum.kt](/./Matrix/DiagonalSum.kt)
