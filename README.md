@@ -1176,6 +1176,8 @@
 
 [SumOfLeftLeaves.kt](/./Tree/SumOfLeftLeaves.kt)
 
+[SumOfRootToLeafBinaryNumbers.kt](/./Tree/SumOfRootToLeafBinaryNumbers.kt)
+
 [SumOfRootToLeafNode.kt](/./Tree/SumOfRootToLeafNode.kt)
 
 [SumOfSmallestElement.cpp](/./Tree/SumOfSmallestElement.cpp)
