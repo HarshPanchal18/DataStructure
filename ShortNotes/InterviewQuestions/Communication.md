@@ -18,3 +18,13 @@ I might not be the best at the job now, but I'll be damn certain to ask whoever 
 * "If you have to ask at this point, we're definitely not a fit. Bye." :)
 * I follow rules and I challange them.
 * You meant to lead with why you’re worthy on me first
+
+* Whenever the interviewer asks "Do you have any questions for me?"
+
+1. What is the team's biggest challenge right now?
+2. What new tech is the team experimenting with?
+3. What is that one company project that you are excited about?
+4. What was an interesting work the team shipped recently?
+5. How do you measure the success of engineering initiatives?
+6. How does the team/company celebrate wins?
+7. What are some company traditions that you enjoy?
