@@ -793,6 +793,8 @@
 <details>
 <summary>Theories</summary>
 
+[Android.md](/./ShortNotes/Theories/Android.md)
+
 [JetpackCompose.md](/./ShortNotes/Theories/JetpackCompose.md)
 
 [SoftwareEngineering.md](/./ShortNotes/Theories/SoftwareEngineering.md)
