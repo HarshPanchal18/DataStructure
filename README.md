@@ -1076,6 +1076,8 @@
 
 [MultiplyStrings.kt](/./String%20Operations/Kotlin/MultiplyStrings.kt)
 
+[NumberOfSegementsInString.kt](/./String%20Operations/Kotlin/NumberOfSegementsInString.kt)
+
 [NumberOfWonderfulSubstrings.kt](/./String%20Operations/Kotlin/NumberOfWonderfulSubstrings.kt)
 
 [OddStringDifference.kt](/./String%20Operations/Kotlin/OddStringDifference.kt)
