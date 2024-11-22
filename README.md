@@ -1018,6 +1018,13 @@
 </details>
 
 <details>
+<summary>Go</summary>
+
+[SplitStringsBySeparator.go](/./String%20Operations/Go/SplitStringsBySeparator.go)
+
+</details>
+
+<details>
 <summary>Kotlin</summary>
 
 [CompareVersionNumber.java](/./String%20Operations/Kotlin/CompareVersionNumber.java)
