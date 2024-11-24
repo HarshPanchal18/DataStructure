@@ -344,6 +344,8 @@
 
 [CreateArrayInGivenOrder.kt](/./Array%20Operations/Kotlin/CreateArrayInGivenOrder.kt)
 
+[DefuseTheBomb.kt](/./Array%20Operations/Kotlin/DefuseTheBomb.kt)
+
 [DivideArrayIntoEqualPairs.kt](/./Array%20Operations/Kotlin/DivideArrayIntoEqualPairs.kt)
 
 [Equal.java](/./Array%20Operations/Kotlin/Equal.java)
