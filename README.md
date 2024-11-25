@@ -1121,6 +1121,8 @@
 
 [SplitStringsBySeparator.kt](/./String%20Operations/Kotlin/SplitStringsBySeparator.kt)
 
+[StringCompression3.kt](/./String%20Operations/Kotlin/StringCompression3.kt)
+
 [TimeConversion.kt](/./String%20Operations/Kotlin/TimeConversion.kt)
 
 [ValidPalindrome.kt](/./String%20Operations/Kotlin/ValidPalindrome.kt)
