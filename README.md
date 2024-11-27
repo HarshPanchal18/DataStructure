@@ -1035,6 +1035,8 @@
 
 [CountCommonWordsWithOneOccurrence.kt](/./String%20Operations/Kotlin/CountCommonWordsWithOneOccurrence.kt)
 
+[CountItemsMatchingRule.kt](/./String%20Operations/Kotlin/CountItemsMatchingRule.kt)
+
 [CountTheVowelStringsInRange.kt](/./String%20Operations/Kotlin/CountTheVowelStringsInRange.kt)
 
 [CustomSortString.kt](/./String%20Operations/Kotlin/CustomSortString.kt)
