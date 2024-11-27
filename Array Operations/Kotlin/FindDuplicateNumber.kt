@@ -56,3 +56,13 @@ fun findDuplicate(nums: IntArray): Int {
             .first { it.first == it.second }
             .first
 }
+
+fun findDuplicate(nums: IntArray): Int {
+    val set = nums.toSet()
+    set.forEach { i ->
+        if(nums.indexOf(i) != nums.lastIndexOf(i))
+            return i
+    }
+
+    return 0
+}
