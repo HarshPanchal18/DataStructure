@@ -308,6 +308,13 @@
 </details>
 
 <details>
+<summary>Go</summary>
+
+[SubarraySumDivisibleByK.go](/./Array%20Operations/Go/SubarraySumDivisibleByK.go)
+
+</details>
+
+<details>
 <summary>Kotlin</summary>
 
 [aVeryBigSum.kt](/./Array%20Operations/Kotlin/aVeryBigSum.kt)
