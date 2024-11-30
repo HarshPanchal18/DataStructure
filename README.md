@@ -381,6 +381,8 @@
 
 [LonelyInteger.kt](/./Array%20Operations/Kotlin/LonelyInteger.kt)
 
+[LongestSquareStreakInArray.kt](/./Array%20Operations/Kotlin/LongestSquareStreakInArray.kt)
+
 [MajorityElement.kt](/./Array%20Operations/Kotlin/MajorityElement.kt)
 
 [MakeSumDivisibleByP.kt](/./Array%20Operations/Kotlin/MakeSumDivisibleByP.kt)
