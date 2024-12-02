@@ -632,6 +632,8 @@
 
 [MaximalRectangle.kt](/./Matrix/MaximalRectangle.kt)
 
+[MaximumNumberOfMovesInGrid.kt](/./Matrix/MaximumNumberOfMovesInGrid.kt)
+
 [MinimumFallingPAthSum2.kt](/./Matrix/MinimumFallingPathSum2.kt)
 
 [MultiplyMatrix.class](/./Matrix/MultiplyMatrix.class)
