@@ -417,6 +417,8 @@
 
 [NumberOfStudentsUnableToEatLunch.kt](/./Array%20Operations/Kotlin/NumberOfStudentsUnableToEatLunch.kt)
 
+[PartitionEqualSubsetSum.kt](/./Array%20Operations/Kotlin/PartitionEqualSubsetSum.kt)
+
 [PlusMinus.kt](/./Array%20Operations/Kotlin/PlusMinus.kt)
 
 [PlusOne.kt](/./Array%20Operations/Kotlin/PlusOne.kt)
