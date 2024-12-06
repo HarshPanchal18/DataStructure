@@ -763,6 +763,8 @@
 
 [DynamicQueue.cpp](/./Queue/DynamicQueue.cpp)
 
+[KthSmallestFraction.kt](/./Queue/KthSmallestFraction.kt)
+
 [QueueUsingStack.cpp](/./Queue/QueueUsingStack.cpp)
 
 [QueueUsingStack.kt](/./Queue/QueueUsingStack.kt)
