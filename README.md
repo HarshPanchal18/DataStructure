@@ -544,6 +544,8 @@
 
 [IntegerToRoman.kt](/./HashMap/IntegerToRoman.kt)
 
+[RansomNote.kt](/./HashMap/RansomNote.kt)
+
 </details>
 
 <details>
