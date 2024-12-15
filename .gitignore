@@ -4,3 +4,5 @@
 /.vscode/settings.json
 *.exe
 *.class
+.markdownlint.json
+*.txt
