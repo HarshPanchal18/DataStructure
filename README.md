@@ -437,6 +437,8 @@
 
 [RemoveElement.kt](/./Array%20Operations/Kotlin/RemoveElement.kt)
 
+[RemoveSubFoldersFromTheFilesystem.kt](/./Array%20Operations/Kotlin/RemoveSubFoldersFromTheFilesystem.kt)
+
 [RevealsCardInIncreasingOrder.kt](/./Array%20Operations/Kotlin/RevealsCardInIncreasingOrder.kt)
 
 [RobotCollisions.kt](/./Array%20Operations/Kotlin/RobotCollisions.kt)
