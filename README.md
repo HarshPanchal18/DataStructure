@@ -445,6 +445,8 @@
 
 [Search2dMatrix.kt](/./Array%20Operations/Kotlin/Search2dMatrix.kt)
 
+[SeparateBlackAndWhiteBalls.kt](/./Array%20Operations/Kotlin/SeparateBlackAndWhiteBalls.kt)
+
 [SeparateTheDigitsInArray.kt](/./Array%20Operations/Kotlin/SeparateTheDigitsInArray.kt)
 
 [SetMismatch.kt](/./Array%20Operations/Kotlin/SetMismatch.kt)
