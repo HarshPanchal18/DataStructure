@@ -391,6 +391,8 @@
 
 [MaximizeHappinessOfSelectedChildren.kt](/./Array%20Operations/Kotlin/MaximizeHappinessOfSelectedChildren.kt)
 
+[MaximumWidthRamp.kt](/./Array%20Operations/Kotlin/MaximumWidthRamp.kt)
+
 [MaxMin.class](/./Array%20Operations/Kotlin/MaxMin.class)
 
 [MaxMin.java](/./Array%20Operations/Kotlin/MaxMin.java)
