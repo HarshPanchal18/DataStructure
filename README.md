@@ -1110,6 +1110,8 @@
 
 [MakeTheStringGreat.kt](/./String%20Operations/Kotlin/MakeTheStringGreat.kt)
 
+[MaximumNumberOfOperationsToMoveOnesToEnd.kt](/./String%20Operations/Kotlin/MaximumNumberOfOperationsToMoveOnesToEnd.kt)
+
 [MinChangesToMakeAlternatingBinaryString.kt](/./String%20Operations/Kotlin/MinChangesToMakeAlternatingBinaryString.kt)
 
 [MinimumRemoveToMakeValidParntheses.kt](/./String%20Operations/Kotlin/MinimumRemoveToMakeValidParntheses.kt)
@@ -1193,6 +1195,8 @@
 [BinaryTree.c](/./Tree/BinaryTree.c)
 
 [BinaryTree.cpp](/./Tree/BinaryTree.cpp)
+
+[BinaryTreeLevelOrderTraversal2.kt](/./Tree/BinaryTreeLevelOrderTraversal2.kt)
 
 [DeleteLeavesWithGivenValue.kt](/./Tree/DeleteLeavesWithGivenValue.kt)
 
