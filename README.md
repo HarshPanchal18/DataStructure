@@ -116,6 +116,8 @@
 
 [MaximumAchievableNumber.kt](/./Algorithms/MaximumAchievableNumber.kt)
 
+[MaximumProductOfThreeNumbers.kt](/./Algorithms/MaximumProductOfThreeNumbers.kt)
+
 [MaximumWaterContainer.c](/./Algorithms/MaximumWaterContainer.c)
 
 [MinimizeTheMaxDifference.kt](/./Algorithms/MinimizeTheMaxDifference.kt)
@@ -364,6 +366,8 @@
 [FindDuplicateNumber.kt](/./Array%20Operations/Kotlin/FindDuplicateNumber.kt)
 
 [FindIfDigitGameCanBeWon.kt](/./Array%20Operations/Kotlin/FindIfDigitGameCanBeWon.kt)
+
+[FindIndicesOfStableMountains.kt](/./Array%20Operations/Kotlin/FindIndicesOfStableMountains.kt)
 
 [FindTheTownJudge.kt](/./Array%20Operations/Kotlin/FindTheTownJudge.kt)
 
@@ -1062,6 +1066,8 @@
 
 [CompareVersionNumber.kt](/./String%20Operations/Kotlin/CompareVersionNumber.kt)
 
+[ConvertHexStringToRGB.kt](/./String%20Operations/Kotlin/ConvertHexStringToRGB.kt)
+
 [CountCommonWordsWithOneOccurrence.kt](/./String%20Operations/Kotlin/CountCommonWordsWithOneOccurrence.kt)
 
 [CountItemsMatchingRule.kt](/./String%20Operations/Kotlin/CountItemsMatchingRule.kt)
@@ -1130,9 +1136,13 @@
 
 [PathCrossing.kt](/./String%20Operations/Kotlin/PathCrossing.kt)
 
+[PercentageOfLetterInString.kt](/./String%20Operations/Kotlin/PercentageOfLetterInString.kt)
+
 [PermutationInString.kt](/./String%20Operations/Kotlin/PermutationInString.kt)
 
 [PrinterErrors.kt](/./String%20Operations/Kotlin/PrinterErrors.kt)
+
+[RearrangeWordsInSentence.kt](/./String%20Operations/Kotlin/RearrangeWordsInSentence.kt)
 
 [RemoveKdigits.kt](/./String%20Operations/Kotlin/RemoveKdigits.kt)
 
