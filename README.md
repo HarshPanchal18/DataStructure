@@ -888,6 +888,8 @@
 
 [GroupSoldTheProductByTheDate.md](/./SQL/GroupSoldTheProductByTheDate.md)
 
+[InvestmentIn2016.md](/./SQL/InvestmentIn2016.md)
+
 [MarketAnalysis1.md](/./SQL/MarketAnalysis1.md)
 
 [PatientsWithCondition.md](/./SQL/PatientsWithCondition.md)
