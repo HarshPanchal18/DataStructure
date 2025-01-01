@@ -896,6 +896,8 @@
 
 [ProductSalesAnalysis1.md](/./SQL/ProductSalesAnalysis1.md)
 
+[RankScores.md](/./SQL/RankScores.md)
+
 [RearrangeProductTable.md](/./SQL/RearrangeProductTable.md)
 
 [RecycleableAndLowFatProducts.md](/./SQL/RecycleableAndLowFatProducts.md)
